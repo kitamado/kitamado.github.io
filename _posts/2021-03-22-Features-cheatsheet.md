@@ -1,6 +1,6 @@
 ---
 title: Features cheatsheet
-tags: Memo feature
+tags: memo feature
 ---
 ### Custom Features
 1. **wiki-style link**
