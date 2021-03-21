@@ -1,5 +1,5 @@
 ---
-title: Test my own post
+title: Test post
 comments: true
 ---
 
