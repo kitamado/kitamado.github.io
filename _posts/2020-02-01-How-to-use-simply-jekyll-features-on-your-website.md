@@ -1,6 +1,6 @@
 ---
 title: How to use Simply Jekyll features on your website
-tags: jekyll theme
+tags: feature
 comments: true
 ---
 For refresh, see [[Features cheatsheet]].

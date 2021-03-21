@@ -1,6 +1,6 @@
 ---
 title: Exploring the features of Simply Jekyll
-tags: jekyll theme
+tags: feature
 status: ongoing
 ---
 

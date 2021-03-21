@@ -1,6 +1,5 @@
 ---
 title: (Sample Essay) Informational Hazard - Thinking Before Consuming
-tags: Practical
 comments: true
 ---
 
