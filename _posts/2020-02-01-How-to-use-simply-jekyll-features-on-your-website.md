@@ -32,7 +32,6 @@ Example of an internal link that points to a valid post or page, that is, a page
 >
 > **Rendered Text:** [[Comparison based on accomplishment does not have a baseline]]
 
-
 Example of an internal link that do not point to a valid post or page, that is, a page with the title (not url) mentioned in the double brackets.
 
 > **Raw Syntax:** **[​[**Title of a non-existent page**]]**
