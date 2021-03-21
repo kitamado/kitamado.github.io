@@ -143,11 +143,7 @@ Here is a screenshot.
 If you go the posts on the homepage, and go inside any of them and try to click on the tags such as date or category, you will see that it takes you to a page with all the posts belonging to that tag or date. Just a nifty little feature.
 
 
-And that is all! Thanks for scrolling all the way through to see all the features. Now if you'd like see how to use these features, head over to [[How to use Simply Jekyll features on your website]]
-
-
-P.S If you use VSCode like me for content creation and authoring, and are interested in autocompletion of titles when you write your notes. You can use a small VSCode plugin that I wrote for myself to ease up my writing process: [[Notecomplete::https://github.com/raghuveerdotnet/scratchpad/tree/master/note-complete]]
-
+And that is all! Thanks for scrolling all the way through to see all the features. Now if you'd like see how to use these features, head over to [[How to use custom features]]
 
 
 
