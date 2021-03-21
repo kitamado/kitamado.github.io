@@ -33,6 +33,9 @@ tags: Memo feature
    - size include: [[very-small, medium-small, small, small-medium, medium, medium-large, large, very-large::highlight]]
    - font include: [[regular-sans, serif, bold, italic, oblique, bolder, etc. ::highlight]]
    - other: [[.boxit, .disable-user-select , etc.::highlight]]
+  
+8. **Auto-tagging WIP posts on the feed**
+   - add `status: ongoing` in YAML front.
 
 ### Auto Features
 1. **Related Posts**: Posts that share same tag(s).

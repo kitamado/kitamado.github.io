@@ -1,5 +1,5 @@
 ---
-title: How to use Simply Jekyll features on your website
+title: How to use custom features on your website
 tags: feature
 comments: true
 ---
