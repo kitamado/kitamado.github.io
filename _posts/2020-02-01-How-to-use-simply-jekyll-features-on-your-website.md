@@ -66,9 +66,9 @@ Example of a sidenote to the right side of the page:
 > **Rendered Text:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum tortor in pharetra vehicula. Fusce gravida lacus ac sem luctus congue at id justo. Ut sed tempus ante. [[Phasellus mollis lectus id efficitur mollis.::rsn]] Suspendisse sit amet diam nec justo rhoncus tristique. Ut blandit faucibus nisi vitae rutrum. Vivamus fermentum efficitur justo non facilisis.
 
 
-> **Raw Syntax:** See the effect of left margin note.**[[**I am left margin note.**::]]**
+> **Raw Syntax:** See the effect of left margin note.**[[**I am left margin note.**::lmn]]**
 
-> **Rendered Text:** See the effect of left margin note.[[I am left margin note.::]]
+> **Rendered Text:** See the effect of left margin note.[[I am left margin note.::lmn]]
 
 
 Same goes with `lsn`, `rmn`.
