@@ -27,7 +27,9 @@ tags: Memo
    font classes include: [[regular-sans, serif, bold, italic, oblique, bolder, etc. ::highlight]]
    other: [[.boxit, .disable-user-select , etc.::highlight]]
 
-
+### Auto Features
+1. **Related Posts**: Posts that share same tag(s).
+2. **Linked References(Backlinks)**: Posts that link other posts inside your blog.
 
 ### Markdown
 #### Underscore

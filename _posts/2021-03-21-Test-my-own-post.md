@@ -1,6 +1,5 @@
 ---
 title: Test my own post
-tags: jekyll theme
 comments: true
 ---
 
