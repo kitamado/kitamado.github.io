@@ -1,6 +1,5 @@
 ---
-tags: test
-curated: true
+
 ---
 
 The notes are not sorted by name.
