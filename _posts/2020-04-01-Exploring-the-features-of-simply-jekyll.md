@@ -134,10 +134,6 @@ I am a big fan of Aza Raskin's infinite scroll design and the fact that it provi
 
 And if you are still not sure of its utility, go join twitter or facebook or instagram, and comeback to read this again after a month or so.
 
-Untill then here is the screenshot:
-
-<img src="/assets/img/feed.png" style="box-shadow: 2px 2px 20px 0 #ddd;" height="100%" width="80%"/>
-
 ##### Auto-tagging WIP posts on the feed
 
 Sometimes you are writing something interesting but have not completed the entire thing, lets say like a series of posts on single, it can be helpful to show users right away on the feed/homepage the status so that when they click the post, their expectations are already managed.
@@ -151,7 +147,7 @@ Here is a screenshot.
 If you go the posts on the homepage, and go inside any of them and try to click on the tags such as date or category, you will see that it takes you to a page with all the posts belonging to that tag or date. Just a nifty little feature.
 
 
-And that is all! Thanks for scrolling all the way through to see all the features. Now if you'd like to know how to use this theme, head over to the post titled [[How to setup Simply Jekyll]]. And if you would like to see how to use these features, head over to [[How to use Simply Jekyll features on your website]]
+And that is all! Thanks for scrolling all the way through to see all the features. Now if you'd like see how to use these features, head over to [[How to use Simply Jekyll features on your website]]
 
 
 P.S If you use VSCode like me for content creation and authoring, and are interested in autocompletion of titles when you write your notes. You can use a small VSCode plugin that I wrote for myself to ease up my writing process: [[Notecomplete::https://github.com/raghuveerdotnet/scratchpad/tree/master/note-complete]]
