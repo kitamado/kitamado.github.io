@@ -23,9 +23,7 @@ tags: memo feature
    - `[​[Some Text::wrap]]`
   
 6. **flash card**
-   ```
-   [[flash card text::srs]]
-   ```
+   - **[​[**Some Text**::srs]]**
   
 7. **specific classes** for changing font-type, font-size, and font-weight
    ```
