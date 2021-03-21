@@ -111,9 +111,6 @@ For all you know, this could be used for some interesting things if you have a t
 
 If you have ever used a social media with feeds you probably have stalked the profiles of people you find interesting, but the problem is as much as the mystery gets someone into look at your profile, it also makes them form opinions. If the profile reads author, you see their feed one way; and if it says scientist from Caltech, you see it the other. I mean as much as authority is a thing to form opinions about, it also alienates people from what could potentially have been a great relation if not for the credentiality and appearance. So, the idea with the profile board was to get done with this stuff right away so that people can enjoy the content instead of going profile hunting on your credibility and accomplishments and appearances to judge and validate their opinions by validating you.
 
-Here is the screenshot:
-
-<img src="/assets/img/profile_board.png" style="border: 1px solid #f7f7f7; box-shadow: 2px 2px 20px 0 #ddd;" height="100%" width="80%"/>
 
 ##### Omnisearch bar
 
