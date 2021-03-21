@@ -159,7 +159,7 @@ There are classes like very-small, medium-small, small, small-medium, medium, me
 > Some text here that needs to be enlarged
 
 
-Similarly there are classes like regular-sans, serif, bold, italic, oblique, bolder, etc for formatting the text.
+Similarly there are classes like [[regular-sans, serif, bold, italic, oblique, bolder, etc::highlight]]for formatting the text.
 
 > **Raw Syntax:**
 > 
@@ -173,7 +173,7 @@ Similarly there are classes like regular-sans, serif, bold, italic, oblique, bol
 > {:.medium .serif .oblique}
 > Some text here that needs to be enlarged
 
-Other common classes are .boxit that is used to wrap the text, .disable-user-select to disallow users from being able to select a particular piece of text by selecting it, etc. There are more classes like these which you can see in the file `style.css`. Once you figure out which class to use, all you have to do is just add the class before the text you want inside a curl brace like this ​{:\<classnames-with-dot-prepended-to-them>​}
+Other common classes are [[.boxit::highlight]] that is used to wrap the text, [[.disable-user-select::highlight]] to disallow users from being able to select a particular piece of text by selecting it, etc. There are more classes like these which you can see in the file `style.css`. Once you figure out which class to use, all you have to do is just add the class before the text you want inside a curl brace like this ​{:\<classnames-with-dot-prepended-to-them>​}
  
 ### 8. Other implicit features.
 
