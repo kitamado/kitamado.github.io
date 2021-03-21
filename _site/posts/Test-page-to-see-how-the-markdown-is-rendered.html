@@ -133,7 +133,7 @@
         <p class="back-p">Home</p>
     </div></header><main>
                 <h1>Test page to see how the raw markdown is rendered</h1><!-- Parse internal links, external links, transclusions etc and manipuate the content to reflect it accordingly --><ul class="tags"><li><a href="/dates/#01-January-2020" class="tag">January-01-2020</a></li>
-    <!-- Loop through page categories and print them in tags --><li><a href="/tags/#markdown" class="tag">markdown</a></li></ul><div class="content"><p>This is intended as a quick reference and showcase.</p>
+    <!-- Loop through page categories and print them in tags --><li><a href="/tags/#memo" class="tag">memo</a></li></ul><div class="content"><p>This is intended as a quick reference and showcase.</p>
 
 <p><strong>Table of Contents</strong></p>
 <ul>
@@ -288,21 +288,21 @@ example.com (but not on Github, for example).</p>
 <div class="regular-sans highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Here's our logo (hover to see the title text):
 
 Inline-style: 
-![alt text](/assets/img/profile.png "Logo Title Text 1")
+![alt text](/assets/img/profile.jpg "Logo Title Text 1")
 
 Reference-style: 
 ![alt text][logo]
 
-[logo]: /assets/img/profile.png "Logo Title Text 2"
+[logo]: /assets/img/profile.jpg "Logo Title Text 2"
 </code></pre></div></div>
 
 <p>Here's our logo (hover to see the title text):</p>
 
 <p>Inline-style: 
-<img src="/assets/img/profile.png" alt="alt text" title="Logo Title Text 1" /></p>
+<img src="/assets/img/profile.jpg" alt="alt text" title="Logo Title Text 1" /></p>
 
 <p>Reference-style: 
-<img src="/assets/img/profile.png" alt="alt text" title="Logo Title Text 2" /></p>
+<img src="/assets/img/profile.jpg" alt="alt text" title="Logo Title Text 2" /></p>
 
 <h3 id="syntax">Code and Syntax Highlighting</h3>
 <hr />
@@ -366,14 +366,7 @@ But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
 
 \[P(A|B) = \frac{P(B | A)\cdot P(A)}{P(B)}\]
 
-<table>
-  <tbody>
-    <tr>
-      <td>Please note that for a math block to be displayed correctly, it needs to be separated by an empty line, above and below. Besides, the pipe character</td>
-      <td>may conflict with markdown : it is recommended to use \vert instead.</td>
-    </tr>
-  </tbody>
-</table>
+<p>Please note that for a math block to be displayed correctly, it needs to be separated by an empty line, above and below. Besides, the pipe character <code class="highlighter-rouge">|</code> may conflict with markdown : it is recommended to use \vert instead.</p>
 
 <h3 id="tables">Tables</h3>
 <hr />
@@ -557,11 +550,25 @@ This line is only separated by a single newline, so it's a separate line in the 
 </div><!-- Add backlinks to the current page --><div class="related" id="jekyll-seamless-backlinks">
     <h4 class="medium-small">Linked References</h4>
     <div class="related-wrapper"><div class="related-group"><a href="/posts/How-to-use-simply-jekyll-features-on-your-website">
-                <p class="related-title">How to use Simply Jekyll features on your website</p>
-                <p class="related-excerpt">Welcome to this feature usage tour. This is going to be another short post that describes how to use all the fancy features we saw in [[E...</p>
+                <p class="related-title">How to use custom features</p>
+                <p class="related-excerpt">For refresh, see [[Features cheatsheet]].
+
+Welcome to this feature usage tour. This is going to be another short post that describes how ...</p>
             </a></div></div>
     <br/>
-</div></main><!-- DISQUS COMMENT SECTION, DO NOT TOUCH -->
+</div><div class="related" id="jekyll-seamless-relatedposts">
+    <h4 class="medium-small">Related Posts</h4>
+    <div class="related-wrapper"><div class="related-group"><a href="/posts/Features-cheatsheet">
+            <p class="related-title">Features cheatsheet</p>
+            <p class="related-excerpt">Custom Features
+
+  wiki-style link
+    
+      Internal links: [​[​Some Link]]
+      External links: [​[​Some Text::https://address-to-the...</p>
+          </a></div></div>
+      <br/>
+    </div></main><!-- DISQUS COMMENT SECTION, DO NOT TOUCH -->
 <div id="disqus_thread"></div>
     <script>
         /**

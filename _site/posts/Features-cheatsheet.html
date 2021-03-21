@@ -4,11 +4,11 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="Knowledge Continuum" property="og:site_name"/>
     <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
-    <meta content="http://localhost:4000/about/" property="article:author"><meta content="How to setup Simply Jekyll" property="og:title">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="Features cheatsheet" property="og:title">
     <meta content="article" property="og:type">
-    <meta content="http://localhost:4000/posts/How-to-setup-simply-jekyll" property="og:url"><title>Posts</title>
+    <meta content="http://localhost:4000/posts/Features-cheatsheet" property="og:url"><title>Posts</title>
 
-    <link rel="canonical" href="http://localhost:4000/posts/How-to-setup-simply-jekyll"/>
+    <link rel="canonical" href="http://localhost:4000/posts/Features-cheatsheet"/>
     <link rel="apple-touch-icon" href="/assets/img/profile.jpg">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
 
@@ -132,172 +132,105 @@
         </div>
         <p class="back-p">Home</p>
     </div></header><main>
-                <h1>How to setup Simply Jekyll</h1><!-- Parse internal links, external links, transclusions etc and manipuate the content to reflect it accordingly --><ul class="tags"><li><a href="/dates/#01-March-2020" class="tag">March-01-2020</a></li>
-    <!-- Loop through page categories and print them in tags --><li><a href="/tags/#jekyll" class="tag">jekyll</a></li><li><a href="/tags/#theme" class="tag">theme</a></li></ul><div class="content"><p>This is going to be a super simple post about how to setup and use this theme for your own website.</p>
-
-<h2 id="usage">Usage</h2>
-
-<p class="boxit">Q. What will it look like when I am done setting it up?</p>
-
-<blockquote>
-  <p>This is what it should look  (minus the exact essays ofcourse):
-<img src="/assets/img/end_result.jpg" style="box-shadow: 2px 2px 20px 0 #ddd;" /></p>
-</blockquote>
-
-<p>Now without further ado, let's get started!</p>
-
-<h3 id="setup-prerequisites">Setup Prerequisites</h3>
-
-<p>For this tutorial, we’ll need to install a few things on your machine (you may have some of these already). Following the instructions on each website to install them.</p>
-
-<ul>
-  <li><a href="https://www.ruby-lang.org/">Ruby</a></li>
-  <li><a href="https://rubygems.org/">RubyGems</a></li>
-  <li><a href="https://git-scm.com/downloads">Git</a></li>
-</ul>
-
-<p>You’ll also need to create accounts on the following services:</p>
-
-<ul>
-  <li><a href="https://www.github.com/join">GitHub<sup ><i class="fa fa-github"></i></sup></a> (to store the website)</li>
-  <li><a href="https://app.netlify.com/signup">Netlify</a> (to serve the website so others can see)</li>
-</ul>
-
-<p>Once you are all set with the prerequisites, we can then get to the fun part of getting it to appear on your screen. Let's get started with that.</p>
-
-<h3 id="1-create-a-fork-of-the-template-repository">1. Create a fork of the template repository</h3>
-
-<p>To simplify things, I provide the template showed in the image above to get started. You can always tweak this template to your taste later.</p>
-
-<p>Visit the GitHub page for my template repository (<a href="https://github.com/raghuveerdotnet/jekyll-seamless">raghuveerdotnet/jekyll-seamless<sup ><i class="fa fa-github"></i></sup></a>), and fork it to your account using the Fork button:</p>
-
-<blockquote>
-  <p><img src="/assets/img/fork_button.jpg" style="box-shadow: 2px 2px 20px 0 #ddd;" /></p>
-</blockquote>
-
-<p>Once the forking process is complete, you should have a fork (essentially a copy) of my template in your own GitHub account. On the GitHub page for your repository, click on the green “Clone or download” button, and copy the URL: we’ll need it for the next step.</p>
-
-<h3 id="2-clone-your-repository-locally">2. Clone your repository locally</h3>
-
-<p>Next, we want to download the files from your GitHub repository onto your local machine. To do this, replace <YOUR_COPIED_URL_HERE> in the command below with the URL you copied in the previous step, then execute this command:</YOUR_COPIED_URL_HERE></p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git clone &lt;YOUR_COPIED_URL_HERE&gt; my-personal-website
-</code></pre></div></div>
-
-<p>As a reference point, this is how it looks like for me (the difference is likely just the GitHub username):</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git clone git@github.com:raghuveerdotnet/jekyll-seamless.git my-personal-website
-</code></pre></div></div>
-
-<p>Then, navigate into the directory that was just created:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd my-personal-website
-</code></pre></div></div>
-
-<h3 id="3-test-out-the-site-locally">3. Test out the site locally</h3>
-
-<p>Sweet! You now have your repository’s source code on your machine. Within the my-personal-website directory, run the following command to install the necessary dependencies like Jekyll:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ bundle
-</code></pre></div></div>
-
-<p>Once that’s done, ask Jekyll to start serving the site locally:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ bundle exec jekyll serve
-</code></pre></div></div>
-
-<p>Then, open up <a href="http://localhost:4000">http://localhost:4000</a> in your browser.</p>
-
-<p>If everything’s done correctly, you should now see the home page of your Personal Jekyll Website with Simply Jekyll Theme. 🎉</p>
-
-<p>Keep in mind that this site is only available locally (notice the <code class="highlighter-rouge">localhost</code> part of the URL), so if we want it to be available on the Internet for everyone to enjoy, we need to deploy it to the Internet: we’ll use Netlify for that in the next step.</p>
-
-<h3 id="4-connect-your-github-repository-to-netlify">4. Connect your GitHub repository to Netlify</h3>
-
-<p>Netlify lets you automatically deploy your personal website on to the Internet when you update your GitHub repository. To do this, we need to connect your GitHub repository to Netlify:</p>
-
+                <h1>Features cheatsheet</h1><!-- Parse internal links, external links, transclusions etc and manipuate the content to reflect it accordingly --><ul class="tags"><li><a href="/dates/#22-March-2021" class="tag">March-22-2021</a></li>
+    <!-- Loop through page categories and print them in tags --><li><a href="/tags/#memo" class="tag">memo</a></li><li><a href="/tags/#feature" class="tag">feature</a></li></ul><div class="content"><h3 id="custom-features">Custom Features</h3>
 <ol>
-  <li>Log in to Netlify</li>
-  <li>Once logged in, click the “New site from Git” button</li>
-  <li>On the next page, select GitHub as the continuous deployment provider (you may need to authorize the connection, in which case, approve it)</li>
-  <li>On the next page, select your website repository from the list.</li>
-  <li>On the next page, replace the basic build settings with the following.
-    <ol>
-      <li>Type in "jekyll build" (without the quotes) inside the text field titled "Build Command".</li>
-      <li>Similarly type in "_site/" (without the quotes) inside the text field titled "Publish Directory".</li>
-    </ol>
+  <li><strong>wiki-style link</strong>
+    <ul>
+      <li>Internal links: <code class="highlighter-rouge">[​[​Some Link]]</code></li>
+      <li>External links: <code class="highlighter-rouge">[​[​Some Text::https://address-to-the-website]]</code></li>
+    </ul>
   </li>
-  <li>On the next page, keep the default settings, and click on “Deploy site”.</li>
+  <li><strong>sidenote &amp; marginnote</strong>
+Keywords: <code class="highlighter-rouge">lsn</code>,<code class="highlighter-rouge">rsn</code>,<code class="highlighter-rouge">lmn</code>,<code class="highlighter-rouge">rmn</code>
+    <ul>
+      <li>Sidenote: <code class="highlighter-rouge">[​[Some Text::keyword-of-the-type-of-the-sidenote]]</code></li>
+      <li>Marginnote: <code class="highlighter-rouge">[​[​Some Text::keyword-of-the-type-of-the-marginnote]]</code></li>
+    </ul>
+  </li>
+  <li><strong>highlight</strong>
+    <ul>
+      <li><code class="highlighter-rouge">[​[​Some Link::highlight]]</code></li>
+    </ul>
+  </li>
+  <li><strong>partial Transclusion</strong>
+    <ul>
+      <li>Sidenote-transclusion: <code class="highlighter-rouge">[​[Some Text::keyword-of-the-type-of-the-sidenote-transclusion]]</code></li>
+      <li>Marginnote-transclusion: <code class="highlighter-rouge">[​[​Some Text::keyword-of-the-type-of-the-marginnote-transclusion]]</code></li>
+    </ul>
+  </li>
+  <li><strong>warp</strong>
+    <ul>
+      <li><code class="highlighter-rouge">[​[Some Text::wrap]]</code></li>
+    </ul>
+  </li>
+  <li><strong>flash card</strong>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><label for="srs-2" class="srs-toggle "><svg class="srs-svg" x="0px" y="0px" height="20" width="18" viewBox="0 0 100 125" enable-background="new 0 0 100 100" xml:space="preserve"><path fill="none" d="M41.648,12.407c-0.186-0.286-0.5-0.457-0.841-0.457c-0.191,0-0.379,0.056-0.542,0.162l-5.235,3.396l8.239-0.602  L41.648,12.407z"/><path fill="none" d="M28.45,19.776L8.471,32.737c-0.462,0.3-0.594,0.921-0.294,1.384l23.832,36.736l-3.638-49.85  C28.34,20.584,28.379,20.176,28.45,19.776z"/><path d="M40.055,81.425l0.127-0.082l-1.181,0.086C39.319,81.615,39.731,81.635,40.055,81.425z"/><path d="M94.964,32.733c-0.616-1.185-1.656-2.06-2.93-2.462l-15.315-4.845l-0.576-7.905c-0.2-2.721-2.604-4.834-5.352-4.623  l-22.969,1.676l-2.818-4.344c-0.925-1.428-2.495-2.28-4.197-2.28c-0.966,0-1.907,0.279-2.719,0.806L6.294,29.381  c-2.313,1.5-2.974,4.603-1.473,6.916l30.496,47.008c0.926,1.428,2.495,2.28,4.198,2.28c0.965,0,1.905-0.278,2.717-0.806l1.04-0.675  l28.847,9.123c0.491,0.155,0.999,0.233,1.511,0.233c2.191,0,4.105-1.404,4.764-3.491l16.902-53.424  C95.697,35.273,95.58,33.919,94.964,32.733z M40.266,12.112c0.163-0.106,0.35-0.162,0.542-0.162c0.341,0,0.656,0.17,0.841,0.457  l1.622,2.5l-8.239,0.602L40.266,12.112z M8.177,34.121c-0.3-0.463-0.168-1.083,0.294-1.384l19.979-12.96  c-0.071,0.399-0.11,0.808-0.08,1.23l3.638,49.85L8.177,34.121z M35.678,66.191L32.36,20.716c-0.04-0.55,0.375-1.031,0.924-1.071  l12.471-0.909l4.552-0.332l20.852-1.52c0.519,0,0.955,0.408,0.993,0.928l0.461,6.315L55.9,18.841  c-0.49-0.155-0.997-0.234-1.508-0.234c-1.206,0-2.32,0.437-3.195,1.169c-0.715,0.597-1.274,1.385-1.571,2.324l-0.554,1.75  L35.678,66.191z M91.48,35.34l-11.408,36.06l-2.057,6.5l-3.438,10.867c-0.194,0.614-0.798,0.794-1.253,0.647l-25.706-8.13  l-1.247-0.394l-3.694-1.169l-5.488-1.735c-0.343-0.108-0.514-0.355-0.586-0.493c-0.061-0.116-0.137-0.342-0.093-0.617  c0.007-0.047,0.011-0.093,0.026-0.143l15.354-48.536l1.547-4.891c0.005-0.016,0.016-0.026,0.021-0.041  c0.166-0.451,0.579-0.659,0.932-0.659c0.101,0,0.202,0.016,0.301,0.047l18.233,5.768l4.105,1.299l13.795,4.364  c0.345,0.109,0.516,0.356,0.588,0.494C91.486,34.715,91.59,34.997,91.48,35.34z"/><path d="M40.055,81.425c-0.323,0.21-0.735,0.19-1.054,0.004l1.181-0.086L40.055,81.425z"/></svg></label><input type="checkbox" id="srs-2" class="srs-toggle"/><span class="spaced-rep"><span style="font-size: 16px; color: #555;"><u><strong>Flashcard</strong></u></span><br/>flash card text</span>
+</code></pre></div>    </div>
+  </li>
+  <li><strong>specific classes</strong> for changing font-type, font-size, and font-weight
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{:.large}
+ Some text here that needs to be enlarged
+</code></pre></div>    </div>
+    <ul>
+      <li>size include: <span style="background-color: #DAEDFF; color: #555;">very-small, medium-small, small, small-medium, medium, medium-large, large, very-large</span></li>
+      <li>font include: <span style="background-color: #DAEDFF; color: #555;">regular-sans, serif, bold, italic, oblique, bolder, etc. </span></li>
+      <li>other: <span style="background-color: #DAEDFF; color: #555;">.boxit, .disable-user-select , etc.</span></li>
+    </ul>
+  </li>
+  <li><strong>Auto-tagging WIP posts on the feed</strong>
+    <ul>
+      <li>add <code class="highlighter-rouge">status: ongoing</code> in YAML front.</li>
+    </ul>
+  </li>
 </ol>
 
-<p>That was easy! We’re almost done.</p>
+<h3 id="auto-features">Auto Features</h3>
+<ol>
+  <li><strong>Related Posts</strong>: Posts that share same tag(s).</li>
+  <li><strong>Linked References(Backlinks)</strong>: Posts that link other posts inside your blog.</li>
+  <li><strong>On-feed context menu</strong></li>
+  <li><strong>On-hover page preview</strong></li>
+  <li><strong>Omnisearch bar</strong></li>
+</ol>
 
-<p>Wait a couple of minutes for the initial deploy to complete.</p>
-
-<p>Once that’s done, your website should be available on the Internet via a generic Netlify URL, which you can change to a custom domain later if you’d like.</p>
-
-<p>Now the cool thing is this: whenever you push an update to your GitHub repository, Netlify will automatically deploy your updates to the Internet.</p>
-
-<h3 id="5-start-producing-content-with-your-simply-jekyll-based-website">5. Start producing content with your Simply Jekyll based Website</h3>
-
-<p>At this point, you can start updating the files on your machine (in the my-personal-website folder) to change your jekyll seamless based website to your liking: update the copy, add some notes, tweak the layout, customize the colors, etc. Once you have something you’re happy with, push your changes to your GitHub repository with the following commands:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git add --all
-$ git commit -m 'Update content'
-$ git push origin master
-</code></pre></div></div>
-
-<p>If that command succeeds and the rest of the tutorial was done correctly, in a couple of minutes, you should see your changes live on your Netlify website. 🚀</p>
-
-<p>And we’re done! You now have your own Simply Jekyll based Personal Website .</p>
-
-<hr />
-
-<p>If you’re curious, take a look at <a href="https://www.raghuveer.net">my personal jekyll seamless based website here</a>.</p>
-
-<p>This setup tutorial is inspired by <a href="https://maximevaillancourt.com">Maxime Vaillancourt</a>'s Digital Garden Tutorial.</p>
-
+<h3 id="markdown">Markdown</h3>
+<ol>
+  <li>Underscore
+ Markdown doesn't have raw underscore syntax, use inline HTML instead:
+    <ul>
+      <li>Raw Text: <code class="highlighter-rouge">&lt;u&gt;Underlined Text&lt;/u&gt;</code></li>
+      <li>Rendered Text: <u>Underlined Text</u>;</li>
+    </ul>
+  </li>
+</ol>
 
 </div><!-- Add backlinks to the current page --><div class="related" id="jekyll-seamless-backlinks">
     <h4 class="medium-small">Linked References</h4>
-    <div class="related-wrapper"><div class="related-group"><a href="/posts/Exploring-the-features-of-simply-jekyll">
-                <p class="related-title">Exploring the features of Simply Jekyll</p>
-                <p class="related-excerpt">Essentiality is the heart of any good software, and this theme is designed to ensure that I don't add things that I won't use on a daily ...</p>
-            </a></div><div class="related-group"><a href="/posts/How-to-use-simply-jekyll-features-on-your-website">
-                <p class="related-title">How to use Simply Jekyll features on your website</p>
-                <p class="related-excerpt">Welcome to this feature usage tour. This is going to be another short post that describes how to use all the fancy features we saw in [[E...</p>
+    <div class="related-wrapper"><div class="related-group"><a href="/posts/How-to-use-simply-jekyll-features-on-your-website">
+                <p class="related-title">How to use custom features</p>
+                <p class="related-excerpt">For refresh, see [[Features cheatsheet]].
+
+Welcome to this feature usage tour. This is going to be another short post that describes how ...</p>
             </a></div></div>
     <br/>
 </div><div class="related" id="jekyll-seamless-relatedposts">
     <h4 class="medium-small">Related Posts</h4>
-    <div class="related-wrapper"><div class="related-group"><a href="/posts/Test-my-own-post">
-            <p class="related-title">Test my own post</p>
-            <p class="related-excerpt">I changed the jekyll theme from minimal to simply Jekyll.
-</p>
-          </a></div><div class="related-group"><a href="/posts/Introduction-to-simply-jekyll">
-            <p class="related-title">Introduction to Simply Jekyll</p>
-            <p class="related-excerpt">Simply Jekyll is a highly functional jekyll-based theme that combines the best of different worlds (atleast tries to 😅). It is a minimal ...</p>
+    <div class="related-wrapper"><div class="related-group"><a href="/posts/Exploring-the-features-of-simply-jekyll">
+            <p class="related-title">Exploring the blog features</p>
+            <p class="related-excerpt">Essentiality is the heart of any good software, and this theme is designed to ensure that I don't add things that I won't use on a daily ...</p>
+          </a></div><div class="related-group"><a href="/posts/Test-page-to-see-how-the-markdown-is-rendered">
+            <p class="related-title">Test page to see how the raw markdown is rendered</p>
+            <p class="related-excerpt">This is intended as a quick reference and showcase.
+
+Table of Contents
+
+  [[Headers::#heading]]
+  [[Emphasis::#emphasis]]
+  [[Lists::#lis...</p>
           </a></div></div>
       <br/>
-    </div></main><!-- DISQUS COMMENT SECTION, DO NOT TOUCH -->
-<div id="disqus_thread"></div>
-    <script>
-        /**
-         *RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-         *LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-        var disqus_config = function () {
-        this.page.url = 'http://localhost:4000/posts/How-to-setup-simply-jekyll';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://localhost:4000/posts/How-to-setup-simply-jekyll'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://raghuveerdotnet.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><div id="copyright">
+    </div></main><div id="copyright">
     <p id="copyright-notice">© kitamado</p>
 </div> </div>
         <button class="scroll-to-top" id="scroll-to-top"><i class="fa fa-chevron-up"></i></button>

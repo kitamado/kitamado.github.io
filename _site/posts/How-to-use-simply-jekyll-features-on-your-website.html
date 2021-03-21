@@ -4,7 +4,7 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="Knowledge Continuum" property="og:site_name"/>
     <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
-    <meta content="http://localhost:4000/about/" property="article:author"><meta content="How to use Simply Jekyll features on your website" property="og:title">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="How to use custom features" property="og:title">
     <meta content="article" property="og:type">
     <meta content="http://localhost:4000/posts/How-to-use-simply-jekyll-features-on-your-website" property="og:url"><title>Posts</title>
 
@@ -132,8 +132,32 @@
         </div>
         <p class="back-p">Home</p>
     </div></header><main>
-                <h1>How to use Simply Jekyll features on your website</h1><!-- Parse internal links, external links, transclusions etc and manipuate the content to reflect it accordingly --><ul class="tags"><li><a href="/dates/#01-February-2020" class="tag">February-01-2020</a></li>
-    <!-- Loop through page categories and print them in tags --><li><a href="/tags/#jekyll" class="tag">jekyll</a></li><li><a href="/tags/#theme" class="tag">theme</a></li></ul><div class="content"><p>Welcome to this feature usage tour. This is going to be another short post that describes how to use all the fancy features we saw in <span class="tooltip"><a href="/posts/Exploring-the-features-of-simply-jekyll">Exploring the features of Simply Jekyll</a><span class="right bottom"><span class="tooltip-title">Exploring the features of Simply Jekyll</span><br/><span class="tooltip-excerpt">Essentiality is the heart of any good software, and this theme is designed to ensure that I don't add things that I won't use on a daily basis or not have things that would be important for my personal usecase. It has been designed carefully to get rid of all  the feature creeps, bloatwares, etc. i.e., no bootstrap, no semantic, no jquery, no nothing…<br />
+                <h1>How to use custom features</h1><!-- Parse internal links, external links, transclusions etc and manipuate the content to reflect it accordingly --><ul class="tags"><li><a href="/dates/#01-February-2020" class="tag">February-01-2020</a></li>
+    <!-- Loop through page categories and print them in tags --><li><a href="/tags/#feature" class="tag">feature</a></li></ul><div class="content"><p>For refresh, see <span class="tooltip"><a href="/posts/Features-cheatsheet">Features cheatsheet</a><span class="right bottom"><span class="tooltip-title">Features cheatsheet</span><br/><span class="tooltip-excerpt">Custom Features<br />
+<br />
+  wiki-style link<br />
+    <br />
+      Internal links: [​[​Some Link]]<br />
+      External links: [​[​Some Text::https://address-to-the-website]]<br />
+    <br />
+  <br />
+  sidenote &amp; marginnote<br />
+Keywords: lsn,rsn,lmn,rmn<br />
+    <br />
+      Sidenote: [​[Some Text::keyword-of-the-type-of-the-sidenote]]<br />
+      Marginnote: [​[​Some Text::keyword-of-the-type-of-the-marginnote]]<br />
+    <br />
+  <br />
+  highlight<br />
+    <br />
+      [​[​Some Link::highlight]]<br />
+    <br />
+  <br />
+  partial Transclusion<br />
+    <br />
+      Sidenote-transclusion: [​[Some Text::keyw...</span><i></i></span></span>.</p>
+
+<p>Welcome to this feature usage tour. This is going to be another short post that describes how to use all the fancy features we saw in <span class="tooltip"><a href="/posts/Exploring-the-features-of-simply-jekyll">Exploring the blog features</a><span class="right bottom"><span class="tooltip-title">Exploring the blog features</span><br/><span class="tooltip-excerpt">Essentiality is the heart of any good software, and this theme is designed to ensure that I don't add things that I won't use on a daily basis or not have things that would be important for my personal usecase. It has been designed carefully to get rid of all  the feature creeps, bloatwares, etc. i.e., no bootstrap, no semantic, no jquery, no nothing…<br />
 <br />
 That said, this is a ready made theme and I am making it public so that more number of people will use it and enjoy the experience of using it...</span><i></i></span></span>. So without further ado, let's get started.</p>
 
@@ -274,7 +298,13 @@ Emphasis, aka ...</span><i></i></span></span></p>
   <p><strong>Rendered Text:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum tortor in pharetra vehicula. Fusce gravida lacus ac sem luctus congue at id justo. Ut sed tempus ante. <label for="rsn-0" class="margin-toggle sidenote-number "></label><input type="checkbox" id="rsn-0" class="margin-toggle"/><span class="sn-right">Phasellus mollis lectus id efficitur mollis.</span> Suspendisse sit amet diam nec justo rhoncus tristique. Ut blandit faucibus nisi vitae rutrum. Vivamus fermentum efficitur justo non facilisis.</p>
 </blockquote>
 
-<p>Same goes with <code class="highlighter-rouge">lsn</code>, <code class="highlighter-rouge">rmn</code>, <code class="highlighter-rouge">lmn</code></p>
+<blockquote>
+  <p><strong>Raw Syntax:</strong> See the effect of left margin note.<strong><label for="lmn-1" class="margin-toggle  ">&#8853;</label><input type="checkbox" id="lmn-1" class="margin-toggle"/><span class="mn-left"></strong>I am left margin note.<strong></span></strong></p>
+
+  <p><strong>Rendered Text:</strong> See the effect of left margin note.<label for="lmn-2" class="margin-toggle  ">&#8853;</label><input type="checkbox" id="lmn-2" class="margin-toggle"/><span class="mn-left">I am left margin note.</span></p>
+</blockquote>
+
+<p>Same goes with <code class="highlighter-rouge">lsn</code>, <code class="highlighter-rouge">rmn</code>.</p>
 
 <h3 id="3-highlighting-a-piece-of-text">3. Highlighting a piece of text</h3>
 
@@ -347,7 +377,7 @@ Emphasis, aka ...</span><i></i></span></span></p>
 <blockquote>
   <p><strong>Raw Syntax:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum tortor in pharetra vehicula. Fusce gravida lacus ac sem luctus congue at id justo. Ut sed tempus ante. <strong>[​[</strong>Comparison based on accomplishment does not have a baseline<strong>::rmn-transclude]]</strong> Suspendisse sit amet diam nec justo rhoncus tristique. Ut blandit faucibus nisi vitae rutrum. Vivamus fermentum efficitur justo non facilisis.</p>
 
-  <p><strong>Rendered Text:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum tortor in pharetra vehicula. Fusce gravida lacus ac sem luctus congue at id justo. Ut sed tempus ante. <label for="rmn-transclude-1" class="margin-toggle  ">&#8853;</label><input type="checkbox" id="rmn-transclude-1" class="margin-toggle"/><span class="mn-right"><a href="/notes/Comparison-based-on-accomplishment-does-not-have-a-baseline"> <span style="background-color: #ffffc4; color: #555;">Transclusion</span><br/><b>Comparison based on accomplishment does not have a baseline</b><br/>I would just note that you have an image of some "great X" that you are trying to live up to, when really, there is no frame of reference to standardize a measure for X. Point being you and your circumstances are completely unique[[Warren Buffet talks about the idea of maintai...</a></span> Suspendisse sit amet diam nec justo rhoncus tristique. Ut blandit faucibus nisi vitae rutrum. Vivamus fermentum efficitur justo non facilisis.</p>
+  <p><strong>Rendered Text:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum tortor in pharetra vehicula. Fusce gravida lacus ac sem luctus congue at id justo. Ut sed tempus ante. <label for="rmn-transclude-3" class="margin-toggle  ">&#8853;</label><input type="checkbox" id="rmn-transclude-3" class="margin-toggle"/><span class="mn-right"><a href="/notes/Comparison-based-on-accomplishment-does-not-have-a-baseline"> <span style="background-color: #ffffc4; color: #555;">Transclusion</span><br/><b>Comparison based on accomplishment does not have a baseline</b><br/>I would just note that you have an image of some "great X" that you are trying to live up to, when really, there is no frame of reference to standardize a measure for X. Point being you and your circumstances are completely unique[[Warren Buffet talks about the idea of maintai...</a></span> Suspendisse sit amet diam nec justo rhoncus tristique. Ut blandit faucibus nisi vitae rutrum. Vivamus fermentum efficitur justo non facilisis.</p>
 </blockquote>
 
 <p>Same goes with <code class="highlighter-rouge">rsn</code>, <code class="highlighter-rouge">lsn</code>, <code class="highlighter-rouge">lmn</code></p>
@@ -399,7 +429,7 @@ Some text here that needs to be enlarged
   <p class="large">Some text here that needs to be enlarged</p>
 </blockquote>
 
-<p>Similarly there are classes like regular-sans, serif, bold, italic, oblique, bolder, etc for formatting the text.</p>
+<p>Similarly there are classes like <span style="background-color: #DAEDFF; color: #555;">regular-sans, serif, bold, italic, oblique, bolder, etc</span>for formatting the text.</p>
 
 <blockquote>
   <p><strong>Raw Syntax:</strong></p>
@@ -413,58 +443,30 @@ Some text here that needs to be enlarged
   <p class="medium serif oblique">Some text here that needs to be enlarged</p>
 </blockquote>
 
-<p>Other common classes are .boxit that is used to wrap the text, .disable-user-select to disallow users from being able to select a particular piece of text by selecting it, etc. There are more classes like these which you can see in the file <code class="highlighter-rouge">style.css</code>. Once you figure out which class to use, all you have to do is just add the class before the text you want inside a curl brace like this ​{:&lt;classnames-with-dot-prepended-to-them&gt;​}</p>
+<p>Other common classes are <span style="background-color: #DAEDFF; color: #555;">.boxit</span> that is used to wrap the text, <span style="background-color: #DAEDFF; color: #555;">.disable-user-select</span> to disallow users from being able to select a particular piece of text by selecting it, etc. There are more classes like these which you can see in the file <code class="highlighter-rouge">style.css</code>. Once you figure out which class to use, all you have to do is just add the class before the text you want inside a curl brace like this ​{:&lt;classnames-with-dot-prepended-to-them&gt;​}</p>
 
 <h3 id="8-other-implicit-features">8. Other implicit features.</h3>
 
 <p>Features like backlinks, context menu, related posts, page preview are available by default as they are implemented using CSS and JS. So, you don't have to do anything other than write as you would normally to make use of those features.</p>
 
-<h4 id="note">Note:</h4>
-<p>When you typeout square brackets, it can be frustrating to type out the entire file title everytime. At least it was for me, so I created a small VSCode plugin, the editor in which I write my essays to autocomplete the titles as soon as I type double squarebrackets. It has been pretty handy for me, if you are interested in using VSCode or already use it, you can find it here: <a href="https://github.com/raghuveerdotnet/scratchpad/tree/master/note-complete">Notecomplete<sup ><i class="fa fa-github"></i></sup></a>. It is pretty simple to use, all you have to do is just download the note-complete folder and copy it to .vscode directory in your OS to start using it. :)</p>
-
-<p>For setting up the theme on your website checkout <span class="tooltip"><a href="/posts/How-to-setup-simply-jekyll">How to setup Simply Jekyll</a><span class="right bottom"><span class="tooltip-title">How to setup Simply Jekyll</span><br/><span class="tooltip-excerpt">This is going to be a super simple post about how to setup and use this theme for your own website.<br />
-<br />
-Usage<br />
-<br />
-Q. What will it look like when I am done setting it up?<br />
-<br />
-<br />
-  This is what it should look  (minus the exact essays ofcourse):<br />
-<br />
-<br />
-<br />
-Now without further ado, let's get started!<br />
-<br />
-Setup Prerequisites<br />
-<br />
-For this tutorial, we’ll need to install a few things on your machine (you may have some of these already). Following the instructions on each website to install them.<br />
-<br />
-<br />
-  [[Ruby::https://www.ruby...</span><i></i></span></span></p>
 
 </div><!-- Add backlinks to the current page --><div class="related" id="jekyll-seamless-backlinks">
     <h4 class="medium-small">Linked References</h4>
     <div class="related-wrapper"><div class="related-group"><a href="/posts/Exploring-the-features-of-simply-jekyll">
-                <p class="related-title">Exploring the features of Simply Jekyll</p>
+                <p class="related-title">Exploring the blog features</p>
                 <p class="related-excerpt">Essentiality is the heart of any good software, and this theme is designed to ensure that I don't add things that I won't use on a daily ...</p>
             </a></div></div>
     <br/>
 </div><div class="related" id="jekyll-seamless-relatedposts">
     <h4 class="medium-small">Related Posts</h4>
-    <div class="related-wrapper"><div class="related-group"><a href="/posts/Test-my-own-post">
-            <p class="related-title">Test my own post</p>
-            <p class="related-excerpt">I changed the jekyll theme from minimal to simply Jekyll.
-</p>
-          </a></div><div class="related-group"><a href="/posts/Introduction-to-simply-jekyll">
-            <p class="related-title">Introduction to Simply Jekyll</p>
-            <p class="related-excerpt">Simply Jekyll is a highly functional jekyll-based theme that combines the best of different worlds (atleast tries to 😅). It is a minimal ...</p>
-          </a></div><div class="related-group"><a href="/posts/How-to-setup-simply-jekyll">
-            <p class="related-title">How to setup Simply Jekyll</p>
-            <p class="related-excerpt">This is going to be a super simple post about how to setup and use this theme for your own website.
+    <div class="related-wrapper"><div class="related-group"><a href="/posts/Features-cheatsheet">
+            <p class="related-title">Features cheatsheet</p>
+            <p class="related-excerpt">Custom Features
 
-Usage
-
-Q. What will it look like whe...</p>
+  wiki-style link
+    
+      Internal links: [​[​Some Link]]
+      External links: [​[​Some Text::https://address-to-the...</p>
           </a></div></div>
       <br/>
     </div></main><!-- DISQUS COMMENT SECTION, DO NOT TOUCH -->

@@ -1,46 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-21T23:06:31+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Posts</title><entry><title type="html">Why test post doesn't show up in Netlify app?</title><link href="http://localhost:4000/posts/Why-test-post-doesn't-show-up-in-netlify" rel="alternate" type="text/html" title="Why test post doesn't show up in Netlify app?" /><published>2021-03-21T00:00:00+08:00</published><updated>2021-03-21T00:00:00+08:00</updated><id>http://localhost:4000/posts/Why-test-post-doesn't-show-up-in-netlify</id><content type="html" xml:base="http://localhost:4000/posts/Why-test-post-doesn't-show-up-in-netlify">&lt;p&gt;The test post doesn't show up in kitamado.netlify.app?&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-22T02:14:08+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Posts</title><entry><title type="html">Features cheatsheet</title><link href="http://localhost:4000/posts/Features-cheatsheet" rel="alternate" type="text/html" title="Features cheatsheet" /><published>2021-03-22T00:00:00+08:00</published><updated>2021-03-22T00:00:00+08:00</updated><id>http://localhost:4000/posts/Features-cheatsheet</id><content type="html" xml:base="http://localhost:4000/posts/Features-cheatsheet">&lt;h3 id=&quot;custom-features&quot;&gt;Custom Features&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;wiki-style link&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Internal links: &lt;code class=&quot;highlighter-rouge&quot;&gt;[​[​Some Link]]&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;External links: &lt;code class=&quot;highlighter-rouge&quot;&gt;[​[​Some Text::https://address-to-the-website]]&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;sidenote &amp;amp; marginnote&lt;/strong&gt;
+Keywords: &lt;code class=&quot;highlighter-rouge&quot;&gt;lsn&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt;rsn&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt;lmn&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt;rmn&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Sidenote: &lt;code class=&quot;highlighter-rouge&quot;&gt;[​[Some Text::keyword-of-the-type-of-the-sidenote]]&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Marginnote: &lt;code class=&quot;highlighter-rouge&quot;&gt;[​[​Some Text::keyword-of-the-type-of-the-marginnote]]&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;highlight&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[​[​Some Link::highlight]]&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;partial Transclusion&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Sidenote-transclusion: &lt;code class=&quot;highlighter-rouge&quot;&gt;[​[Some Text::keyword-of-the-type-of-the-sidenote-transclusion]]&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Marginnote-transclusion: &lt;code class=&quot;highlighter-rouge&quot;&gt;[​[​Some Text::keyword-of-the-type-of-the-marginnote-transclusion]]&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;warp&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[​[Some Text::wrap]]&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;flash card&lt;/strong&gt;
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[[flash card text::srs]]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;specific classes&lt;/strong&gt; for changing font-type, font-size, and font-weight
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{:.large}
+ Some text here that needs to be enlarged
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;ul&gt;
+      &lt;li&gt;size include: [[very-small, medium-small, small, small-medium, medium, medium-large, large, very-large::highlight]]&lt;/li&gt;
+      &lt;li&gt;font include: [[regular-sans, serif, bold, italic, oblique, bolder, etc. ::highlight]]&lt;/li&gt;
+      &lt;li&gt;other: [[.boxit, .disable-user-select , etc.::highlight]]&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Auto-tagging WIP posts on the feed&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;add &lt;code class=&quot;highlighter-rouge&quot;&gt;status: ongoing&lt;/code&gt; in YAML front.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;How can I fix thid problem?&lt;/p&gt;</content><author><name></name></author><summary type="html">The test post doesn't show up in kitamado.netlify.app?</summary></entry><entry><title type="html">Test my own post</title><link href="http://localhost:4000/posts/Test-my-own-post" rel="alternate" type="text/html" title="Test my own post" /><published>2021-03-21T00:00:00+08:00</published><updated>2021-03-21T00:00:00+08:00</updated><id>http://localhost:4000/posts/Test-my-own-post</id><content type="html" xml:base="http://localhost:4000/posts/Test-my-own-post">&lt;p&gt;I changed the jekyll theme from minimal to simply Jekyll.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="theme" /><summary type="html">I changed the jekyll theme from minimal to simply Jekyll.</summary></entry><entry><title type="html">(Sample Essay) Informational Hazard - Thinking Before Consuming</title><link href="http://localhost:4000/posts/informational-hazard-thinking-before-consuming" rel="alternate" type="text/html" title="(Sample Essay) Informational Hazard - Thinking Before Consuming" /><published>2020-06-01T00:00:00+08:00</published><updated>2020-06-01T00:00:00+08:00</updated><id>http://localhost:4000/posts/informational-hazard-thinking-before-consuming</id><content type="html" xml:base="http://localhost:4000/posts/informational-hazard-thinking-before-consuming">&lt;p&gt;Information is probably the single most addictive substance, even more so than heroin in it can give you the kick even before you have consumed it, let alone waiting for the system to digest it. And what is more interesting is, the quality and the content(in chemist-speak, the composition, and the dosage) that is required to stimulate an individual varies for each individual. For some, the effect kicks in at “keeping up with Kardashians”; for some, when reading editorials in the economist or the new yorker; and for some, reading self-help claptrap disguised as psychology and science. Whichever end of the spectrum you are in there is not much difference in the effect it has on you – all it does is, it consumes your senses.&lt;/p&gt;
+&lt;h3 id=&quot;auto-features&quot;&gt;Auto Features&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Related Posts&lt;/strong&gt;: Posts that share same tag(s).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Linked References(Backlinks)&lt;/strong&gt;: Posts that link other posts inside your blog.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;On-feed context menu&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;On-hover page preview&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Omnisearch bar&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;The problem is no one puts up a disclaimer about whether or not it is fit for you to consume. You have to figure it out yourself. And what is all the more disconcerting is the fact that in doing so none of us are aware of the toll it has taken on us. Consider a simple case of skimming through a newspaper(or an online news app if you are tech-savvy), how much do you retain at the end of it? So, at what point is the trade war between the US and China right now? Oh, and what is happening in the US open? Who is the current world champion in blitz-chess? What happened to the bridge that was going to be built in the who-cares where region? And then top it with some political and investment news, you have successfully deceived yourself into believing that you have hoarded all the information you could and retained nothing. I emphasize nothing!&lt;/p&gt;
-
-&lt;p&gt;If you were to explain the article to someone say a couple days later, I bet all you could recall is the headline. This is the plight of pretty much everyone right now. The toll taken on our attention span due to this continuous influx of information outweighs most of the benefits of consuming it. You travel up the ladder in wealth and status this becomes far graver – you can see people competing for information, meaning, one might not like politics at all but they are now forced to hold an opinion on the president and the current affairs just to be able to contribute to verbal diarrhea to be a part of the social group and to keep up the ostensible progress.&lt;/p&gt;
-
-&lt;p&gt;Now consider this, you read a New York Times piece on Venezuela’s economic collapse that states socialist policies as the primary reason, the high it can give you is indescribable, you suddenly are anti-“this” and pro-“something else”. If someone asked you your political views, you are now nothing more than a parrot regurgitating a New York Times piece as a reason for your anti-socialism stance. Okay, I am sorry I understand that citing only one article can show one in a bad light, so maybe a bunch of them?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Before we go any further, I must clarify that anything that is not explicitly stated by me as my own view should not be extrapolated from the examples or the writing style.&lt;/p&gt;
-
-&lt;p&gt;It is precisely because of this indolent nature of our brain that I ask you to be careful. At least in the case of occupational hazards, you are aware of the downsides, and when you do sign up you do it wittingly. But in the case of Informational Hazards, neither are we aware of the downsides nor did we sign up for it knowingly.&lt;/p&gt;
-
-&lt;p&gt;Furthermore, the indispensable problem that is concomitant of free inflow of information is: [[preference falsification::https://en.wikipedia.org/wiki/Preference_falsification]]. For reasons I don’t understand, it seems like the more the information you accumulate the more are you prone to hiding your true preferences. One theory I have is you think you have to be broad-minded at the expense of your natural instincts but what I don’t understand is how come such smart people who learn to be broad-minded do not understand the cascading effects of the palatable lie. How difficult is it to realize that this lie if prolonged could become the new truth. Is that what we want?&lt;/p&gt;
-
-&lt;p&gt;Our brains have this funny little characteristic or I should say side-effect of generating biases; and when you provide them their favorite fodder a.k.a information, it not only triggers the center of knowledge, it switches on the neighboring center for bias generation too. One that I can instantly recall is that of our collective bias due to the exposure to apparent progress in terms of iPads and iPhones, all of us are made to think that the field of science and technology is evolving at a rapid pace but if you dig deeper there hasn’t been any fundamental breakthrough in the area of pure sciences since the late 1970s, which marked the invention of semiconductors. Eric Weinstein, mathematician and economist speaks about this in great detail in one of his [[podcasts::https://www.youtube.com/watch?v=nM9f0W2KD5s]] on stagnation in science and technology with Peter Thiel. (Do check it out)&lt;/p&gt;
-
-&lt;p&gt;It is not for me to tell what to read and what not to, but I what do know is, there is a mental threshold to what one can make sense of. I have spoken about this in detail in one of my previous essays on the [[branching effects of higher-order thinking::https://raghuveer.net/posts/branching-effects-of-higher-order-thinking/]]. Sometimes, the mental fatigue is real, and in such cases, unnecessary consumption can have undesired effects. So the next time you read about how quantum computers use superposition to surpass conventional computers in representing bits and their states in a newspaper column or a blog post, please try to explain it your kids before you convince yourself of the apparently profound knowledge that you just acquired. Oh yeah, and please don’t draw any conclusions before you explain it to them.&lt;/p&gt;
-
-&lt;p&gt;This is a subtle topic, and there are a million ways to look at it. From why it is really important in this day and age to be updated to how you might not satisfy all the system requirements for the update. To be honest, most of us do not have spec required to hold the information and use it. And there are no good developers around to fix the bugs i.e., the biases and mental fatigue. I think it is good to have your own guiding heuristic as to what do you want to consume and what you don’t. Pick your sources, moderate your intake, and always ponder on it before jumping to conclusions.&lt;/p&gt;</content><author><name></name></author><category term="Practical" /><summary type="html">Information is probably the single most addictive substance, even more so than heroin in it can give you the kick even before you have consumed it, let alone waiting for the system to digest it. And what is more interesting is, the quality and the content(in chemist-speak, the composition, and the dosage) that is required to stimulate an individual varies for each individual. For some, the effect kicks in at “keeping up with Kardashians”; for some, when reading editorials in the economist or the new yorker; and for some, reading self-help claptrap disguised as psychology and science. Whichever end of the spectrum you are in there is not much difference in the effect it has on you – all it does is, it consumes your senses.</summary></entry><entry><title type="html">Introduction to Simply Jekyll</title><link href="http://localhost:4000/posts/Introduction-to-simply-jekyll" rel="alternate" type="text/html" title="Introduction to Simply Jekyll" /><published>2020-05-01T00:00:00+08:00</published><updated>2020-05-01T00:00:00+08:00</updated><id>http://localhost:4000/posts/Introduction-to-simply-jekyll</id><content type="html" xml:base="http://localhost:4000/posts/Introduction-to-simply-jekyll">&lt;p&gt;Simply Jekyll is a highly functional jekyll-based theme that combines the best of different worlds (atleast tries to 😅). It is a minimal and distraction free theme that strives to provide maximum value all without holding back on any essential features that a user would benefit from or would desire for. This is an evolving project and is garanteed to be maintained at least for quite some time as I myself am a beneficiary of this theme and the project.&lt;/p&gt;
-
-&lt;p&gt;The theme provides a rich set of features that include:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Wiki-style markdown syntax for both internal as well as external links.&lt;/li&gt;
-  &lt;li&gt;Support for backlinks and related posts to exhort serendipitous encounters.&lt;/li&gt;
-  &lt;li&gt;Feed-specific context menu for instantly accessing the related posts and references.&lt;/li&gt;
-  &lt;li&gt;Auto stale-link management for internal links.&lt;/li&gt;
-  &lt;li&gt;Custom syntax for sidenotes and marginnotes on either side of the feed/post.&lt;/li&gt;
-  &lt;li&gt;Support for partial transclusion of posts.&lt;/li&gt;
-  &lt;li&gt;On hover page preview.&lt;/li&gt;
-  &lt;li&gt;Custom classes to style phrasing elements like quotes, callouts, etc by mentioning size, font-types, weight, box etc.&lt;/li&gt;
-  &lt;li&gt;Preliminary support for flashcards.&lt;/li&gt;
-  &lt;li&gt;Custom syntax to highlight your favorite part of the post (No, I am not talking about code syntax highlighting, which is already provided by Jekyll through Rouge).&lt;/li&gt;
-  &lt;li&gt;Support for external link identifier through icons.&lt;/li&gt;
-  &lt;li&gt;Finally, the most important of them all — No bloatware or frameworks!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Plus everything else that you can already do with jekyll like write something on a bunch of markdown files and convert it into a HTML file or sprinkle in some inline html can still be done alongside these features.&lt;/p&gt;
-
-&lt;p&gt;Neat stuff, isn't it? To see the above mentioned features in action go check out the next post. :P&lt;/p&gt;
-
-&lt;p&gt;Also see the sample post—[[(Sample Essay) Informational Hazard - Thinking Before Consuming]]—to get a feel for how an actual essay would look like. :)&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="theme" /><summary type="html">Simply Jekyll is a highly functional jekyll-based theme that combines the best of different worlds (atleast tries to 😅). It is a minimal and distraction free theme that strives to provide maximum value all without holding back on any essential features that a user would benefit from or would desire for. This is an evolving project and is garanteed to be maintained at least for quite some time as I myself am a beneficiary of this theme and the project.</summary></entry><entry><title type="html">Exploring the features of Simply Jekyll</title><link href="http://localhost:4000/posts/Exploring-the-features-of-simply-jekyll" rel="alternate" type="text/html" title="Exploring the features of Simply Jekyll" /><published>2020-04-01T00:00:00+08:00</published><updated>2020-04-01T00:00:00+08:00</updated><id>http://localhost:4000/posts/Exploring-the-features-of-simply-jekyll</id><content type="html" xml:base="http://localhost:4000/posts/Exploring-the-features-of-simply-jekyll">&lt;p&gt;Essentiality is the heart of any good software, and this theme is designed to ensure that I don't add things that I won't use on a daily basis or not have things that would be important for my personal usecase. It has been designed carefully to get rid of all  the feature creeps, bloatwares, etc. i.e., no bootstrap, no semantic, no jquery, no nothing…&lt;/p&gt;
+&lt;h3 id=&quot;markdown&quot;&gt;Markdown&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Underscore
+ Markdown doesn't have raw underscore syntax, use inline HTML instead:
+    &lt;ul&gt;
+      &lt;li&gt;Raw Text: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;u&amp;gt;Underlined Text&amp;lt;/u&amp;gt;&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Rendered Text: &lt;u&gt;Underlined Text&lt;/u&gt;;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="memo" /><category term="feature" /><summary type="html">Custom Features wiki-style link Internal links: [​[​Some Link]] External links: [​[​Some Text::https://address-to-the-website]] sidenote &amp;amp; marginnote Keywords: lsn,rsn,lmn,rmn Sidenote: [​[Some Text::keyword-of-the-type-of-the-sidenote]] Marginnote: [​[​Some Text::keyword-of-the-type-of-the-marginnote]] highlight [​[​Some Link::highlight]] partial Transclusion Sidenote-transclusion: [​[Some Text::keyword-of-the-type-of-the-sidenote-transclusion]] Marginnote-transclusion: [​[​Some Text::keyword-of-the-type-of-the-marginnote-transclusion]] warp [​[Some Text::wrap]] flash card [[flash card text::srs]] specific classes for changing font-type, font-size, and font-weight {:.large} Some text here that needs to be enlarged size include: [[very-small, medium-small, small, small-medium, medium, medium-large, large, very-large::highlight]] font include: [[regular-sans, serif, bold, italic, oblique, bolder, etc. ::highlight]] other: [[.boxit, .disable-user-select , etc.::highlight]] Auto-tagging WIP posts on the feed add status: ongoing in YAML front.</summary></entry><entry><title type="html">Exploring the blog features</title><link href="http://localhost:4000/posts/Exploring-the-features-of-simply-jekyll" rel="alternate" type="text/html" title="Exploring the blog features" /><published>2020-04-01T00:00:00+08:00</published><updated>2020-04-01T00:00:00+08:00</updated><id>http://localhost:4000/posts/Exploring-the-features-of-simply-jekyll</id><content type="html" xml:base="http://localhost:4000/posts/Exploring-the-features-of-simply-jekyll">&lt;p&gt;Essentiality is the heart of any good software, and this theme is designed to ensure that I don't add things that I won't use on a daily basis or not have things that would be important for my personal usecase. It has been designed carefully to get rid of all  the feature creeps, bloatwares, etc. i.e., no bootstrap, no semantic, no jquery, no nothing…&lt;/p&gt;
 
 &lt;p&gt;That said, this is a ready made theme and I am making it public so that more number of people will use it and enjoy the experience of using it. So, pardon my bigotry there😅.&lt;/p&gt;
 
@@ -147,10 +175,6 @@
 
 &lt;p&gt;If you have ever used a social media with feeds you probably have stalked the profiles of people you find interesting, but the problem is as much as the mystery gets someone into look at your profile, it also makes them form opinions. If the profile reads author, you see their feed one way; and if it says scientist from Caltech, you see it the other. I mean as much as authority is a thing to form opinions about, it also alienates people from what could potentially have been a great relation if not for the credentiality and appearance. So, the idea with the profile board was to get done with this stuff right away so that people can enjoy the content instead of going profile hunting on your credibility and accomplishments and appearances to judge and validate their opinions by validating you.&lt;/p&gt;
 
-&lt;p&gt;Here is the screenshot:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/profile_board.png&quot; style=&quot;border: 1px solid #f7f7f7; box-shadow: 2px 2px 20px 0 #ddd;&quot; height=&quot;100%&quot; width=&quot;80%&quot; /&gt;&lt;/p&gt;
-
 &lt;h5 id=&quot;omnisearch-bar&quot;&gt;Omnisearch bar&lt;/h5&gt;
 
 &lt;p&gt;This is inspired by the browsers like Chrome and Firefox where the searchbar is always placed at the top so that readers can easily search for the next thing without having to go back to the main page and scroll through dozens of articles.&lt;/p&gt;
@@ -169,10 +193,6 @@
 
 &lt;p&gt;And if you are still not sure of its utility, go join twitter or facebook or instagram, and comeback to read this again after a month or so.&lt;/p&gt;
 
-&lt;p&gt;Untill then here is the screenshot:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/feed.png&quot; style=&quot;box-shadow: 2px 2px 20px 0 #ddd;&quot; height=&quot;100%&quot; width=&quot;80%&quot; /&gt;&lt;/p&gt;
-
 &lt;h5 id=&quot;auto-tagging-wip-posts-on-the-feed&quot;&gt;Auto-tagging WIP posts on the feed&lt;/h5&gt;
 
 &lt;p&gt;Sometimes you are writing something interesting but have not completed the entire thing, lets say like a series of posts on single, it can be helpful to show users right away on the feed/homepage the status so that when they click the post, their expectations are already managed.&lt;/p&gt;
@@ -185,131 +205,9 @@
 
 &lt;p&gt;If you go the posts on the homepage, and go inside any of them and try to click on the tags such as date or category, you will see that it takes you to a page with all the posts belonging to that tag or date. Just a nifty little feature.&lt;/p&gt;
 
-&lt;p&gt;And that is all! Thanks for scrolling all the way through to see all the features. Now if you'd like to know how to use this theme, head over to the post titled [[How to setup Simply Jekyll]]. And if you would like to see how to use these features, head over to [[How to use Simply Jekyll features on your website]]&lt;/p&gt;
+&lt;p&gt;And that is all! Thanks for scrolling all the way through to see all the features. Now if you'd like see how to use these features, head over to [[How to use custom features]]&lt;/p&gt;</content><author><name></name></author><category term="feature" /><summary type="html">Essentiality is the heart of any good software, and this theme is designed to ensure that I don't add things that I won't use on a daily basis or not have things that would be important for my personal usecase. It has been designed carefully to get rid of all the feature creeps, bloatwares, etc. i.e., no bootstrap, no semantic, no jquery, no nothing…</summary></entry><entry><title type="html">How to use custom features</title><link href="http://localhost:4000/posts/How-to-use-simply-jekyll-features-on-your-website" rel="alternate" type="text/html" title="How to use custom features" /><published>2020-02-01T00:00:00+08:00</published><updated>2020-02-01T00:00:00+08:00</updated><id>http://localhost:4000/posts/How-to-use-simply-jekyll-features-on-your-website</id><content type="html" xml:base="http://localhost:4000/posts/How-to-use-simply-jekyll-features-on-your-website">&lt;p&gt;For refresh, see [[Features cheatsheet]].&lt;/p&gt;
 
-&lt;p&gt;P.S If you use VSCode like me for content creation and authoring, and are interested in autocompletion of titles when you write your notes. You can use a small VSCode plugin that I wrote for myself to ease up my writing process: [[Notecomplete::https://github.com/raghuveerdotnet/scratchpad/tree/master/note-complete]]&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="theme" /><summary type="html">Essentiality is the heart of any good software, and this theme is designed to ensure that I don't add things that I won't use on a daily basis or not have things that would be important for my personal usecase. It has been designed carefully to get rid of all the feature creeps, bloatwares, etc. i.e., no bootstrap, no semantic, no jquery, no nothing…</summary></entry><entry><title type="html">How to setup Simply Jekyll</title><link href="http://localhost:4000/posts/How-to-setup-simply-jekyll" rel="alternate" type="text/html" title="How to setup Simply Jekyll" /><published>2020-03-01T00:00:00+08:00</published><updated>2020-03-01T00:00:00+08:00</updated><id>http://localhost:4000/posts/How-to-setup-simply-jekyll</id><content type="html" xml:base="http://localhost:4000/posts/How-to-setup-simply-jekyll">&lt;p&gt;This is going to be a super simple post about how to setup and use this theme for your own website.&lt;/p&gt;
-
-&lt;h2 id=&quot;usage&quot;&gt;Usage&lt;/h2&gt;
-
-&lt;p class=&quot;boxit&quot;&gt;Q. What will it look like when I am done setting it up?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This is what it should look  (minus the exact essays ofcourse):
-&lt;img src=&quot;/assets/img/end_result.jpg&quot; style=&quot;box-shadow: 2px 2px 20px 0 #ddd;&quot; /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Now without further ado, let's get started!&lt;/p&gt;
-
-&lt;h3 id=&quot;setup-prerequisites&quot;&gt;Setup Prerequisites&lt;/h3&gt;
-
-&lt;p&gt;For this tutorial, we’ll need to install a few things on your machine (you may have some of these already). Following the instructions on each website to install them.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;[[Ruby::https://www.ruby-lang.org/]]&lt;/li&gt;
-  &lt;li&gt;[[RubyGems::https://rubygems.org/]]&lt;/li&gt;
-  &lt;li&gt;[[Git::https://git-scm.com/downloads]]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You’ll also need to create accounts on the following services:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;[[GitHub::https://www.github.com/join]] (to store the website)&lt;/li&gt;
-  &lt;li&gt;[[Netlify::https://app.netlify.com/signup]] (to serve the website so others can see)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Once you are all set with the prerequisites, we can then get to the fun part of getting it to appear on your screen. Let's get started with that.&lt;/p&gt;
-
-&lt;h3 id=&quot;1-create-a-fork-of-the-template-repository&quot;&gt;1. Create a fork of the template repository&lt;/h3&gt;
-
-&lt;p&gt;To simplify things, I provide the template showed in the image above to get started. You can always tweak this template to your taste later.&lt;/p&gt;
-
-&lt;p&gt;Visit the GitHub page for my template repository ([[raghuveerdotnet/jekyll-seamless::https://github.com/raghuveerdotnet/jekyll-seamless]]), and fork it to your account using the Fork button:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;img src=&quot;/assets/img/fork_button.jpg&quot; style=&quot;box-shadow: 2px 2px 20px 0 #ddd;&quot; /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Once the forking process is complete, you should have a fork (essentially a copy) of my template in your own GitHub account. On the GitHub page for your repository, click on the green “Clone or download” button, and copy the URL: we’ll need it for the next step.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-clone-your-repository-locally&quot;&gt;2. Clone your repository locally&lt;/h3&gt;
-
-&lt;p&gt;Next, we want to download the files from your GitHub repository onto your local machine. To do this, replace &lt;YOUR_COPIED_URL_HERE&gt; in the command below with the URL you copied in the previous step, then execute this command:&lt;/YOUR_COPIED_URL_HERE&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git clone &amp;lt;YOUR_COPIED_URL_HERE&amp;gt; my-personal-website
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;As a reference point, this is how it looks like for me (the difference is likely just the GitHub username):&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git clone git@github.com:raghuveerdotnet/jekyll-seamless.git my-personal-website
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Then, navigate into the directory that was just created:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ cd my-personal-website
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;3-test-out-the-site-locally&quot;&gt;3. Test out the site locally&lt;/h3&gt;
-
-&lt;p&gt;Sweet! You now have your repository’s source code on your machine. Within the my-personal-website directory, run the following command to install the necessary dependencies like Jekyll:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ bundle
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Once that’s done, ask Jekyll to start serving the site locally:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ bundle exec jekyll serve
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Then, open up [[http://localhost:4000::http://localhost:4000]] in your browser.&lt;/p&gt;
-
-&lt;p&gt;If everything’s done correctly, you should now see the home page of your Personal Jekyll Website with Simply Jekyll Theme. 🎉&lt;/p&gt;
-
-&lt;p&gt;Keep in mind that this site is only available locally (notice the &lt;code class=&quot;highlighter-rouge&quot;&gt;localhost&lt;/code&gt; part of the URL), so if we want it to be available on the Internet for everyone to enjoy, we need to deploy it to the Internet: we’ll use Netlify for that in the next step.&lt;/p&gt;
-
-&lt;h3 id=&quot;4-connect-your-github-repository-to-netlify&quot;&gt;4. Connect your GitHub repository to Netlify&lt;/h3&gt;
-
-&lt;p&gt;Netlify lets you automatically deploy your personal website on to the Internet when you update your GitHub repository. To do this, we need to connect your GitHub repository to Netlify:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Log in to Netlify&lt;/li&gt;
-  &lt;li&gt;Once logged in, click the “New site from Git” button&lt;/li&gt;
-  &lt;li&gt;On the next page, select GitHub as the continuous deployment provider (you may need to authorize the connection, in which case, approve it)&lt;/li&gt;
-  &lt;li&gt;On the next page, select your website repository from the list.&lt;/li&gt;
-  &lt;li&gt;On the next page, replace the basic build settings with the following.
-    &lt;ol&gt;
-      &lt;li&gt;Type in &quot;jekyll build&quot; (without the quotes) inside the text field titled &quot;Build Command&quot;.&lt;/li&gt;
-      &lt;li&gt;Similarly type in &quot;_site/&quot; (without the quotes) inside the text field titled &quot;Publish Directory&quot;.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;On the next page, keep the default settings, and click on “Deploy site”.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;That was easy! We’re almost done.&lt;/p&gt;
-
-&lt;p&gt;Wait a couple of minutes for the initial deploy to complete.&lt;/p&gt;
-
-&lt;p&gt;Once that’s done, your website should be available on the Internet via a generic Netlify URL, which you can change to a custom domain later if you’d like.&lt;/p&gt;
-
-&lt;p&gt;Now the cool thing is this: whenever you push an update to your GitHub repository, Netlify will automatically deploy your updates to the Internet.&lt;/p&gt;
-
-&lt;h3 id=&quot;5-start-producing-content-with-your-simply-jekyll-based-website&quot;&gt;5. Start producing content with your Simply Jekyll based Website&lt;/h3&gt;
-
-&lt;p&gt;At this point, you can start updating the files on your machine (in the my-personal-website folder) to change your jekyll seamless based website to your liking: update the copy, add some notes, tweak the layout, customize the colors, etc. Once you have something you’re happy with, push your changes to your GitHub repository with the following commands:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git add --all
-$ git commit -m 'Update content'
-$ git push origin master
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;If that command succeeds and the rest of the tutorial was done correctly, in a couple of minutes, you should see your changes live on your Netlify website. 🚀&lt;/p&gt;
-
-&lt;p&gt;And we’re done! You now have your own Simply Jekyll based Personal Website .&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;If you’re curious, take a look at [[my personal jekyll seamless based website here::https://www.raghuveer.net]].&lt;/p&gt;
-
-&lt;p&gt;This setup tutorial is inspired by [[Maxime Vaillancourt::https://maximevaillancourt.com]]'s Digital Garden Tutorial.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="theme" /><summary type="html">This is going to be a super simple post about how to setup and use this theme for your own website.</summary></entry><entry><title type="html">How to use Simply Jekyll features on your website</title><link href="http://localhost:4000/posts/How-to-use-simply-jekyll-features-on-your-website" rel="alternate" type="text/html" title="How to use Simply Jekyll features on your website" /><published>2020-02-01T00:00:00+08:00</published><updated>2020-02-01T00:00:00+08:00</updated><id>http://localhost:4000/posts/How-to-use-simply-jekyll-features-on-your-website</id><content type="html" xml:base="http://localhost:4000/posts/How-to-use-simply-jekyll-features-on-your-website">&lt;p&gt;Welcome to this feature usage tour. This is going to be another short post that describes how to use all the fancy features we saw in [[Exploring the features of Simply Jekyll]]. So without further ado, let's get started.&lt;/p&gt;
+&lt;p&gt;Welcome to this feature usage tour. This is going to be another short post that describes how to use all the fancy features we saw in [[Exploring the blog features]]. So without further ado, let's get started.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-default-features&quot;&gt;The default features&lt;/h2&gt;
 
@@ -406,7 +304,13 @@ $ git push origin master
   &lt;p&gt;&lt;strong&gt;Rendered Text:&lt;/strong&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum tortor in pharetra vehicula. Fusce gravida lacus ac sem luctus congue at id justo. Ut sed tempus ante. [[Phasellus mollis lectus id efficitur mollis.::rsn]] Suspendisse sit amet diam nec justo rhoncus tristique. Ut blandit faucibus nisi vitae rutrum. Vivamus fermentum efficitur justo non facilisis.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Same goes with &lt;code class=&quot;highlighter-rouge&quot;&gt;lsn&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;rmn&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;lmn&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Raw Syntax:&lt;/strong&gt; See the effect of left margin note.&lt;strong&gt;[[&lt;/strong&gt;I am left margin note.&lt;strong&gt;::lmn]]&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Rendered Text:&lt;/strong&gt; See the effect of left margin note.[[I am left margin note.::lmn]]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Same goes with &lt;code class=&quot;highlighter-rouge&quot;&gt;lsn&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;rmn&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;3-highlighting-a-piece-of-text&quot;&gt;3. Highlighting a piece of text&lt;/h3&gt;
 
@@ -531,7 +435,7 @@ Some text here that needs to be enlarged
   &lt;p class=&quot;large&quot;&gt;Some text here that needs to be enlarged&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Similarly there are classes like regular-sans, serif, bold, italic, oblique, bolder, etc for formatting the text.&lt;/p&gt;
+&lt;p&gt;Similarly there are classes like [[regular-sans, serif, bold, italic, oblique, bolder, etc::highlight]]for formatting the text.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Raw Syntax:&lt;/strong&gt;&lt;/p&gt;
@@ -545,16 +449,11 @@ Some text here that needs to be enlarged
   &lt;p class=&quot;medium serif oblique&quot;&gt;Some text here that needs to be enlarged&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Other common classes are .boxit that is used to wrap the text, .disable-user-select to disallow users from being able to select a particular piece of text by selecting it, etc. There are more classes like these which you can see in the file &lt;code class=&quot;highlighter-rouge&quot;&gt;style.css&lt;/code&gt;. Once you figure out which class to use, all you have to do is just add the class before the text you want inside a curl brace like this ​{:&amp;lt;classnames-with-dot-prepended-to-them&amp;gt;​}&lt;/p&gt;
+&lt;p&gt;Other common classes are [[.boxit::highlight]] that is used to wrap the text, [[.disable-user-select::highlight]] to disallow users from being able to select a particular piece of text by selecting it, etc. There are more classes like these which you can see in the file &lt;code class=&quot;highlighter-rouge&quot;&gt;style.css&lt;/code&gt;. Once you figure out which class to use, all you have to do is just add the class before the text you want inside a curl brace like this ​{:&amp;lt;classnames-with-dot-prepended-to-them&amp;gt;​}&lt;/p&gt;
 
 &lt;h3 id=&quot;8-other-implicit-features&quot;&gt;8. Other implicit features.&lt;/h3&gt;
 
-&lt;p&gt;Features like backlinks, context menu, related posts, page preview are available by default as they are implemented using CSS and JS. So, you don't have to do anything other than write as you would normally to make use of those features.&lt;/p&gt;
-
-&lt;h4 id=&quot;note&quot;&gt;Note:&lt;/h4&gt;
-&lt;p&gt;When you typeout square brackets, it can be frustrating to type out the entire file title everytime. At least it was for me, so I created a small VSCode plugin, the editor in which I write my essays to autocomplete the titles as soon as I type double squarebrackets. It has been pretty handy for me, if you are interested in using VSCode or already use it, you can find it here: [[Notecomplete::https://github.com/raghuveerdotnet/scratchpad/tree/master/note-complete]]. It is pretty simple to use, all you have to do is just download the note-complete folder and copy it to .vscode directory in your OS to start using it. :)&lt;/p&gt;
-
-&lt;p&gt;For setting up the theme on your website checkout [[How to setup Simply Jekyll]]&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="theme" /><summary type="html">Welcome to this feature usage tour. This is going to be another short post that describes how to use all the fancy features we saw in [[Exploring the features of Simply Jekyll]]. So without further ado, let's get started.</summary></entry><entry><title type="html">Test page to see how the raw markdown is rendered</title><link href="http://localhost:4000/posts/Test-page-to-see-how-the-markdown-is-rendered" rel="alternate" type="text/html" title="Test page to see how the raw markdown is rendered" /><published>2020-01-01T00:00:00+08:00</published><updated>2020-01-01T00:00:00+08:00</updated><id>http://localhost:4000/posts/Test-page-to-see-how-the-markdown-is-rendered</id><content type="html" xml:base="http://localhost:4000/posts/Test-page-to-see-how-the-markdown-is-rendered">&lt;p&gt;This is intended as a quick reference and showcase.&lt;/p&gt;
+&lt;p&gt;Features like backlinks, context menu, related posts, page preview are available by default as they are implemented using CSS and JS. So, you don't have to do anything other than write as you would normally to make use of those features.&lt;/p&gt;</content><author><name></name></author><category term="feature" /><summary type="html">For refresh, see [[Features cheatsheet]].</summary></entry><entry><title type="html">Test page to see how the raw markdown is rendered</title><link href="http://localhost:4000/posts/Test-page-to-see-how-the-markdown-is-rendered" rel="alternate" type="text/html" title="Test page to see how the raw markdown is rendered" /><published>2020-01-01T00:00:00+08:00</published><updated>2020-01-01T00:00:00+08:00</updated><id>http://localhost:4000/posts/Test-page-to-see-how-the-markdown-is-rendered</id><content type="html" xml:base="http://localhost:4000/posts/Test-page-to-see-how-the-markdown-is-rendered">&lt;p&gt;This is intended as a quick reference and showcase.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -709,21 +608,21 @@ example.com (but not on Github, for example).&lt;/p&gt;
 &lt;div class=&quot;regular-sans highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Here's our logo (hover to see the title text):
 
 Inline-style: 
-![alt text](/assets/img/profile.png &quot;Logo Title Text 1&quot;)
+![alt text](/assets/img/profile.jpg &quot;Logo Title Text 1&quot;)
 
 Reference-style: 
 ![alt text][logo]
 
-[logo]: /assets/img/profile.png &quot;Logo Title Text 2&quot;
+[logo]: /assets/img/profile.jpg &quot;Logo Title Text 2&quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Here's our logo (hover to see the title text):&lt;/p&gt;
 
 &lt;p&gt;Inline-style: 
-&lt;img src=&quot;/assets/img/profile.png&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 1&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/profile.jpg&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Reference-style: 
-&lt;img src=&quot;/assets/img/profile.png&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 2&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/profile.jpg&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 2&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;syntax&quot;&gt;Code and Syntax Highlighting&lt;/h3&gt;
 &lt;hr /&gt;
@@ -787,14 +686,7 @@ But let's throw in a &amp;lt;b&amp;gt;tag&amp;lt;/b&amp;gt;.
 
 \[P(A|B) = \frac{P(B | A)\cdot P(A)}{P(B)}\]
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Please note that for a math block to be displayed correctly, it needs to be separated by an empty line, above and below. Besides, the pipe character&lt;/td&gt;
-      &lt;td&gt;may conflict with markdown : it is recommended to use \vert instead.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;Please note that for a math block to be displayed correctly, it needs to be separated by an empty line, above and below. Besides, the pipe character &lt;code class=&quot;highlighter-rouge&quot;&gt;|&lt;/code&gt; may conflict with markdown : it is recommended to use \vert instead.&lt;/p&gt;
 
 &lt;h3 id=&quot;tables&quot;&gt;Tables&lt;/h3&gt;
 &lt;hr /&gt;
@@ -973,4 +865,4 @@ This line is only separated by a single newline, so it's a separate line in the 
 &lt;p&gt;This line is also a separate paragraph, but…
 This line is only separated by a single newline, so it's a separate line in the &lt;em&gt;same paragraph&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;License: CC-BY&lt;/p&gt;</content><author><name></name></author><category term="markdown" /><summary type="html">This is intended as a quick reference and showcase.</summary></entry></feed>
+&lt;p&gt;License: CC-BY&lt;/p&gt;</content><author><name></name></author><category term="memo" /><summary type="html">This is intended as a quick reference and showcase.</summary></entry></feed>
