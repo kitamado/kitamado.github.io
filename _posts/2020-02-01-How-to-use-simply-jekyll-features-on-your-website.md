@@ -67,7 +67,7 @@ Example of a sidenote to the right side of the page:
 
 
 > **Raw Syntax:** See the effect of left margin note.**[[**I am left margin note.**::lmn]]**
-
+> 
 > **Rendered Text:** See the effect of left margin note.[[I am left margin note.::lmn]]
 
 
