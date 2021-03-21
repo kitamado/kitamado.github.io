@@ -1,6 +1,7 @@
+_site
+_notes/archived
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
 _notes/archived
-_site

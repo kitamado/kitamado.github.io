@@ -1,13 +1,13 @@
 title: Posts
 name: kitamado
 user_description: Undergraduate at USTC.
-notes_url: "https://kitamado.netlify.app/"
+notes_url: "https://kitamado.github.io/"
 # cv_url: "https://kitamado.github.io/markdown-cv/"
 profile_pic: /assets/img/profile.jpg
 favicon: /assets/img/favicon.jpg
 copyright_name: kitamado
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://kitamado.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://kitamado.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 encoding: utf-8
 
 # Build settings
