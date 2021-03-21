@@ -152,6 +152,14 @@
       "url"      : "/notes/Test-note",
       "content"  : "Test note. Check netlify .app.fooadd something…"
 
+    },
+  
+    {
+
+      "title"    : "测试中文",
+      "url"      : "/notes/%E6%B5%8B%E8%AF%95%E4%B8%AD%E6%96%87",
+      "content"  : "测试一下中文支持怎么样。"
+
     }
   
 ]
