@@ -65,7 +65,13 @@ Example of a sidenote to the right side of the page:
 >
 > **Rendered Text:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum tortor in pharetra vehicula. Fusce gravida lacus ac sem luctus congue at id justo. Ut sed tempus ante. [[Phasellus mollis lectus id efficitur mollis.::rsn]] Suspendisse sit amet diam nec justo rhoncus tristique. Ut blandit faucibus nisi vitae rutrum. Vivamus fermentum efficitur justo non facilisis.
 
-Same goes with `lsn`, `rmn`, `lmn`
+
+> **Raw Syntax:** See the effect of left margin note.**[[**I am left margin note.**::]]**
+
+> **Rendered Text:** See the effect of left margin note.[[I am left margin note.::]]
+
+
+Same goes with `lsn`, `rmn`.
 
 ### 3. Highlighting a piece of text
 
@@ -108,6 +114,7 @@ Example of a transclusion to the right side of the page:
 > **Raw Syntax:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum tortor in pharetra vehicula. Fusce gravida lacus ac sem luctus congue at id justo. Ut sed tempus ante. **[​[**Comparison based on accomplishment does not have a baseline**::rmn-transclude]]** Suspendisse sit amet diam nec justo rhoncus tristique. Ut blandit faucibus nisi vitae rutrum. Vivamus fermentum efficitur justo non facilisis.
 >
 > **Rendered Text:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum tortor in pharetra vehicula. Fusce gravida lacus ac sem luctus congue at id justo. Ut sed tempus ante. [[Comparison based on accomplishment does not have a baseline::rmn-transclude]] Suspendisse sit amet diam nec justo rhoncus tristique. Ut blandit faucibus nisi vitae rutrum. Vivamus fermentum efficitur justo non facilisis.
+
 
 Same goes with `rsn`, `lsn`, `lmn`
 
