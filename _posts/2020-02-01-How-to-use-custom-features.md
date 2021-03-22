@@ -29,9 +29,9 @@ Similarly, for external links all you have to do is add a double colon after the
 
 Example of an internal link that points to a valid post or page, that is, a page with the title (not url) mentioned in the double brackets.
 
-> **Raw Syntax:** **[​[**​Comparison based on accomplishment does not have a baseline**]]**
+> **Raw Syntax:** **[​[**​Features cheatsheet**]]**
 >
-> **Rendered Text:** [[Comparison based on accomplishment does not have a baseline]]
+> **Rendered Text:** [[Features cheatsheet]]
 
 Example of an internal link that do not point to a valid post or page, that is, a page with the title (not url) mentioned in the double brackets.
 
