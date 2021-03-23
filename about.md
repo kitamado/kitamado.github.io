@@ -8,7 +8,6 @@ content-type: eg
 ## Hi there,
 
 I just started to build my github pages.
-You can see my resume [here](https://kitamado.github.io/markdown-cv/). 
 
 
 ### "kitamado" ?
