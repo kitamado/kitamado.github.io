@@ -39,6 +39,7 @@ tags: python
 
 
 ### Abstract Method & Class in Python
+
 #### Abstract Method
 - An Abstract method is a method which is declared but does not have implementation such type of methods are called as abstract methods. In Python, we can declare an abstract method by using @abstractmethod decorator.
 
@@ -47,6 +48,7 @@ tags: python
 - Here the Child class is responsible for providing an implementation for the parent class abstract method.
 
 #### Abstract Class
+##### `class abc.ABC`
 - The partially implemented classes are called an abstract class; every abstract class in python should be a child of ABC class, which is present in the abc module.
 - The following example demonstrates the creation of parent abstract class defining an abstract method, which is partially implemented, creating child classes that are responsible for providing implementation to parent abstract class. These classes are called **concrete classes**. We cannot create an object to the abstract class, but we can create an object to the child's class.
 
@@ -72,3 +74,6 @@ tags: python
     a=Auto()
     print(a.getNoOfWheels())
     ```
+
+##### `class abc.ABCMeta`
+- Metaclass for defining Abstract Base Classes (ABCs).
