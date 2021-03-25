@@ -5,7 +5,8 @@ tags: python
 ### @staticmethod in Python
 
 - Python @staticmethod decorator is used to label a class method as a static method, which means that it can be called without >  instantiating the class first. It simply defines a normal function that is logically contained in the class for readability purposes. Here, we do not need to pass the class instance as the first argument via self, unlike other class functions.
-    {% highlight python linenos %}
+
+    ~~~python
     class Student():
         def __init__(self, mark):
             self.mark = mark
@@ -15,11 +16,12 @@ tags: python
     print(Student.find_min(20))
     # output
     # 20
-    {% endhighlight %}
+    ~~~
+
 
 - Static methods can also be accessed via class instances or objects. For example :
-    {% highlight python linenos %}
-
+    
+    ~~~python
     class Bank():
         def __init__(self, balance):
             self.balance = balance
@@ -30,7 +32,7 @@ tags: python
     
     bank = Bank(1000)
     print(bank.find_interest(bank.balance, 0.3))
-    {% endhighlight %}
+    ~~~
 
 - Comparison between @staticmethod, @classmethod, instance method
   ![compatison](../assets/img/staticmethods.png)
@@ -50,8 +52,7 @@ tags: python
 - The partially implemented classes are called an abstract class; every abstract class in python should be a child of ABC class, which is present in the abc module.
 - The following example demonstrates the creation of parent abstract class defining an abstract method, which is partially implemented, creating child classes that are responsible for providing implementation to parent abstract class. These classes are called **concrete classes**. We cannot create an object to the abstract class, but we can create an object to the child's class.
 
-    {% highlight python linenos %}
-    
+    ~~~python
     from abc import ABC, abstractmethod
     class Vehicle(ABC):
         @abstractmethod
@@ -72,7 +73,7 @@ tags: python
 
     a=Auto()
     print(a.getNoOfWheels())
-    {% endhighlight %}
+    ~~~
 
 ##### `class abc.ABCMeta`
 - Metaclass for defining Abstract Base Classes (ABCs).

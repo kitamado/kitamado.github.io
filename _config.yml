@@ -16,14 +16,14 @@ plugins:
   - jekyll-sitemap 
 
 markdown: kramdown
-highlighter: rouge
 
 kramdown:
   input: GFM
-  # hard_wrap: false
+  hard_wrap: false
   math_engine: mathjax
   smart_quotes: ["apos", "apos", "quot", "quot"]
-  # syntax_highlighter: rouge
+  syntax_highlighter: rouge
+
 
 sass:
   style: compressed
@@ -50,6 +50,3 @@ defaults:
     values:
       layout: post
       content-type: notes
-
-exclude:
-  - .jekyll-cache
