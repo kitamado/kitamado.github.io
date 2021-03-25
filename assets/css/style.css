@@ -144,7 +144,7 @@ img {
 }
 
 code {
-    font-family: Consolas, 'Courier New', Courier, monospace;
+    font-family: 'Hack', 'monospace', 'Consolas', 'Courier New', 'Courier';
     display: inline-block;
     overflow: auto !important;
     /* white-space: pre-line !important;        */
@@ -173,7 +173,7 @@ code {
 }
 
 pre code {
-    font-family: Consolas, 'Courier New', Courier, monospace;
+    font-family: 'Hack', 'Consolas', 'Courier New', Courier, monospace;
     display: inline-block;
     overflow: auto !important;
     /* white-space: pre-line !important; */
