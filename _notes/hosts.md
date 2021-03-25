@@ -1,6 +1,7 @@
 ---
+date: 2021-3-23
 ---
-#### Hosts
+
 Add these lines to host file.
 解决部分网站dns污染问题。
 ```
