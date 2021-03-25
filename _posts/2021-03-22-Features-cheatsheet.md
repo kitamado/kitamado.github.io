@@ -49,3 +49,15 @@ tags: memo
     Markdown doesn't have raw underscore syntax, use inline HTML instead:
    - Raw Text: `<u>Underlined Text</u>`
    - Rendered Text: <u>Underlined Text</u>;
+
+2. To add line numbers to code blocks
+
+- add {% highlight language linenos %} and {% endhighlight %} to the start and end of the code block
+
+  ```
+  {% highlight c linenos %}
+  int main() {
+     printf("hello")
+  }
+  {% endhighlight %}
+  ```

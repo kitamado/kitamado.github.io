@@ -2,7 +2,6 @@ title: Posts
 name: kitamado
 user_description: Undergraduate at USTC.
 notes_url: "https://kitamado.github.io/"
-# cv_url: "https://kitamado.github.io/markdown-cv/"
 profile_pic: /assets/img/profile.png
 favicon: /assets/img/favicon.png
 copyright_name: kitamado
@@ -17,13 +16,14 @@ plugins:
   - jekyll-sitemap 
 
 markdown: kramdown
+highlighter: rouge
 
 kramdown:
   input: GFM
-  hard_wrap: false
+  # hard_wrap: false
   math_engine: mathjax
   smart_quotes: ["apos", "apos", "quot", "quot"]
-  syntax_highlighter: rouge
+  # syntax_highlighter: rouge
 
 sass:
   style: compressed
@@ -33,8 +33,8 @@ collections:
       output: true
       permalink: /notes/:title
 
-disqus:
-  shortname: raghuveerdotnet
+# disqus:
+#   shortname: raghuveerdotnet
 
 defaults:
   - scope:
@@ -50,3 +50,6 @@ defaults:
     values:
       layout: post
       content-type: notes
+
+exclude:
+  - .jekyll-cache
