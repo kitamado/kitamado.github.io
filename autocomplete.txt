@@ -1,5 +1,6 @@
 ---
 ---
+
 {%- for post in site.posts -%}
 {{ post.title | strip_html | escape }};
 {%- endfor -%}
