@@ -2,4 +2,4 @@
 
 
 > https://kitamado.github.io
-> https://kitamado.netlift.app
+> https://kitamado.netlify.app
