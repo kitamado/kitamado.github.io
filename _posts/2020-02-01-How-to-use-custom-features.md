@@ -88,6 +88,7 @@ There is only one color right now in which it highlights, a light bluish color, 
 > **Rendered Text:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum tortor in pharetra vehicula. Fusce gravida lacus ac sem luctus congue at id justo. Ut sed tempus ante. [[Phasellus mollis lectus id efficitur mollis.::highlight]] Suspendisse sit amet diam nec justo rhoncus tristique. Ut blandit faucibus nisi vitae rutrum. Vivamus fermentum efficitur justo non facilisis.
 
 ### 4. Partial Transclusion
+  *Not avalible on mobile phones*
 
 Transclusion is just a natural extension of sidenote and marginnote feature.
 
