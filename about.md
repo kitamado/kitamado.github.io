@@ -7,7 +7,7 @@ content-type: eg
 
 ## Hi there,
 
-I just started to build my github pages.
+I just started to build my github pages :smile:.
 
 
 ### "kitamado" ?
