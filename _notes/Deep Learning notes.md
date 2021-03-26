@@ -22,6 +22,7 @@ A sequence model is usually designed to transform an input sequence into an outp
 然而，简单感知神经元如果仅仅将当前输入元素和上一个单位状态线性结合，很容易失去长期依赖性。e.g. 我们以 "Alice is working at...... "作为开头，经过一段时间后，我们又以 "She"或 "He"作为下一句的开头, 我们无法知道模型忘记了人物的名字 "Alice"。为了解决这个问题，研究人员创造了一种特殊的神经元，其内部结构更加复杂，用于记忆长期上下文，被命名为 "Long-short Term Memory(LSTM)" 神经元。
 
 LSTM足够聪明，它可以知道旧的信息应该记忆多久，什么时候忘记，什么时候利用新的数据，以及如何将旧的记忆和新的输入结合起来。
+![LSTM](../assets/img/notes/lstm.png)
 
 这里有一篇很好的[介绍](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)。
 
