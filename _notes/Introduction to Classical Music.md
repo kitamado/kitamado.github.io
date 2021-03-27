@@ -39,9 +39,10 @@ tags: Coursera-quiz
     1. God Save the King  _____  
     2. The Emperor’s Hymn   _____ 
     3. The Marseillaise  _____ 
-    A. England 
-    B. France
-    C. Austria/Germany 
+  
+        A. England 
+        B. France
+        C. Austria/Germany 
 
     - [ ] 1.B; 2.C; 3.A
     - [ ] 1.C; 2.A; 3.B
@@ -118,6 +119,7 @@ tags: Coursera-quiz
         C. Piano; or solo instrument with piano  
 
         D. Two violins, viola, and cello
+
     - [x] D A C B
 
 2. Please select the number of movements, and the movements' corresponding tempos, commonly associated with the following Classical genres. 
@@ -220,6 +222,7 @@ tags: Coursera-quiz
    - [x] Gloria and Credo
 
 2. Please match the musical descriptions with the appropriate religious imagery in the Confutatis section of the Dies irae from Mozart's Requiem Mass.
+   
     A. consonant, soaring melody in the upper register; major mode
     B.  agitated rhythmic figures and melodic sequence in the lower register; minor mode
 
@@ -234,3 +237,53 @@ tags: Coursera-quiz
    - [x]  A scene of the Last Judgment by Christ
    - [ ]  A scene of the Resurrection of Christ
    - [ ]  A scene from the Crucifixion of Christ     
+
+
+## Week7
+
+### 7.1 - Beethoven to the Heroic Period
+
+- 15.1 Mozart and Beerhoven Compared
+- 15.2 Beethoven and the Romantic Genius
+- 15.3 Beethoven's Early Years
+- 15.4 Growing Deafness and Disability
+- 15.5 The "Moonlight" Sonata
+
+#### Quiz: Beethoven and the Romantic Genius
+
+
+#### Quiz: Beethoven's Early Years
+
+
+### 7.2 The Heroic Beethoven and Beyond
+
+- 16.1 The Three Periods of Beethoven
+- 16.2 Symphony No.3, the "Eroica"
+- 16.3 Symphony No.5
+- 16.4 Beethoven's Goft to Music: SOUND
+- 16.5 Beethoven Toword the End
+- 16.6 The Late Period and "Ode to Joy"
+
+#### Quiz: Symphony No.3, the "Eroica"
+
+#### Quiz: Symphony No.5
+
+#### Quiz: The Late Period and "Ode to Joy"
+
+
+### 7.3 Romanticism and the Romantic Art Song
+
+- 17.1 Introduction to Romantic Music
+- 17.2 Domestic Muic - Making of the Middle Class
+- 17.3 Sketch of the Life and Music of Franz Shubert
+- 17.4 Schubert's Erlkönig
+- 17.5 Robert and Clara Schumann
+
+#### Quiz: Sketch of the Life and Music of Franz Shubert
+
+
+
+#### Quiz: Schubert's Erlkönig
+
+
+#### Quiz: Robert and Clara Schumann

@@ -67,7 +67,7 @@ And yes, all of what you see is available right out of the box. No configuration
 
 ### Transclusion
 
-Once I had sidenotes and page preview for my blog, transclusion[[Serendipity Based outlook as a driver for large Scale personal projects::rmn-transclude]] just felt like the natural next step to it. I mean there are less important pages that you can leave at the discretion of the readers to hover-over and take a peak, and then there are pages that you want to explicity show a glimpse of, but how do you do it? Obviously, putting a chunk of random text in the most of your post is just unacceptable UX, but then how else do you do  it? You could just combine the nifty little preview thingy with your nice little sidenote thingy and let users get a glimpse of the important stuff without getting distracted. Amazing, isn't it?
+Once I had sidenotes and page preview for my blog, transclusion[[Hosts::rmn-transclude]] just felt like the natural next step to it. I mean there are less important pages that you can leave at the discretion of the readers to hover-over and take a peak, and then there are pages that you want to explicity show a glimpse of, but how do you do it? Obviously, putting a chunk of random text in the most of your post is just unacceptable UX, but then how else do you do  it? You could just combine the nifty little preview thingy with your nice little sidenote thingy and let users get a glimpse of the important stuff without getting distracted. Amazing, isn't it?
 
 ### Link Management
 
@@ -76,7 +76,7 @@ Now the biggest of them all: the permalink curse. Most of us are never happy wit
 Although we don't have a complete solution given that we are using a static site generator, I think we have a decent mechanism to atleast find the culprit links without clicking at them (a.k.a highlighting links that don't point anywhere, but ideally must be pointing to some location due to which they cannot be deleted).
 
 Here is an example of:
-- A perfectly valid link: [[Comparison based on accomplishment does not have a baseline]]
+- A perfectly valid link: [[Python Notes]]
 - A bad link that does not point anywhere: [[Some non-existing title]]
 
 See how it highlights in yellow? I feel this is a game-changer that anyone who has a personal website should at least think of incorporating in their website given the number of deadlink issues we face.
