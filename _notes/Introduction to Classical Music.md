@@ -5,9 +5,8 @@ tags: Coursera-quiz
 > 古典音乐导论 Coursera
 > by Yale University
 
-[TOC]
-
-
+* TOC
+{:toc}
 
 ## Week6
 
