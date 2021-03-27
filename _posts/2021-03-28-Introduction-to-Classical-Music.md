@@ -8,8 +8,8 @@ status: ongoing
 > 古典音乐导论 Coursera
 > by Yale University
 
-- TOC
-  {:toc}
+* TOC
+{:toc}
 
 ## Week6
 
@@ -624,6 +624,7 @@ status: ongoing
     - [x] A colletion of songs (perhaps like a “concept album”) on a single theme
 
 14. Match the term with the correct definition: Modified strophic form \_\_\_
+    
     - [x] A musical form in which the music composed varies slightly from one strophe to the next
 
 ## Week 8
