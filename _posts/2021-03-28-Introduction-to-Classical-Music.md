@@ -8,7 +8,7 @@ comments: true
 > by Yale University
 
 * TOC
-  {:toc}
+{:toc}
 
 ## Week6
 
