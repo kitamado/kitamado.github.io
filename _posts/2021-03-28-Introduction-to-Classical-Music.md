@@ -1028,15 +1028,15 @@ comments: true
    - [x] Angular meters
    - [ ] Polychords
 
-14-0s, 25-0s, 3-0s 2. An off-center polychord is most similar in effect to a painting in which style listed below?
+2. An off-center polychord is most similar in effect to a painting in which style listed below?
 
 - [x] Cubism
 
-3. The premier of The Rite of Spring 1913 provoked a **********\_\_********** among the audience.
+1. The premier of The Rite of Spring 1913 provoked a __ among the audience.
 
    - [x] Scandal(riot)
 
-4. Besides the music, what also provoked the extreme reaction of the audience to The Rite of Spring?
+2. Besides the music, what also provoked the extreme reaction of the audience to The Rite of Spring?
 
    - [x] Choreography
 
