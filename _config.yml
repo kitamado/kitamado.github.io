@@ -50,6 +50,3 @@ defaults:
     values:
       layout: post
       content-type: notes
-
-gems:
-  -jemoji
