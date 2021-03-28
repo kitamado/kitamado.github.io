@@ -1,15 +1,14 @@
 ---
 tags: Coursera-quiz
 title: Introduction to Classical Music
-status: ongoing
-
+comments: true
 ---
 
 > 古典音乐导论 Coursera
 > by Yale University
 
 * TOC
-{:toc}
+  {:toc}
 
 ## Week6
 
@@ -382,18 +381,18 @@ status: ongoing
 
 1. Which of the following answers best describes the main reason why Beethoven removed Napoleon's name from the title of his Third Symphony?
 
-   - [ ] He was disillusioned with Napoleon (and Napoleon’s political ideals) after he later declared himself emperor
+   - [x] He was disillusioned with Napoleon (and Napoleon’s political ideals) after he later declared himself emperor
    - [ ] He was instructed to do so by his publishers.
-   - [x] He was upset that Napoleon invaded Vienna, where the composer was living F
+   - [ ] He was upset that Napoleon invaded Vienna, where the composer was living 
    - [ ] He disapproved of Napoleon's early revolutionary politics, which were inspired by the French Revolution.
 
 2. What is somewhat unusual and notable about the second movement of the "Eroica" Symphony?
 
-   - [x] It is extremely brief F
-   - [x] It has a slow tempo F
-   - [ ] It is a funeral march
-   - [x] It is incredibly loud throughout the whole movement
-   - [x] All of the above F
+   - [ ] It is extremely brief 
+   - [ ] It has a slow tempo 
+   - [x] It is a funeral march
+   - [ ] It is incredibly loud throughout the whole movement
+   - [ ] All of the above 
 
 3. Which is the best answer? The following aspects contribute to Beethoven's "heroic sound" in the "Eroica" Symphony and in the works of his “Heroic” (middle) period generally.
 
