@@ -1,6 +1,7 @@
 ---
 title: Mid-Term Report
 tags: Adervasarial-Training
+date: 2021-03-24
 status: ongoing
 ---
 # Research on Methods of Accelerating Adversarial Training
