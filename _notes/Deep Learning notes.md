@@ -1,5 +1,5 @@
 ---
-tags: 2021-03-26
+date: 2021-03-26
 ---
 
 ### Convolutional Neural Network
