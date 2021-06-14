@@ -3,10 +3,12 @@ date: 2021-04-21
 tags: certificate
 ---
 
+# My MOOC Certificates
+
 ## Courses
 * [Machine Learning](https://www.coursera.org/learn/machine-learning) @ *Stanford University* ([certificate](https://coursera.org/share/39de6ba3aea075f324c531d0a1ae469a))
 - [Introduction to Classical Music](https://www.coursera.org/learn/introclassicalmusic) @ *Yale University* ([certificate](https://coursera.org/share/a1b37bb0fb2f07100a5d3c97f4a04835))
-- [Applied Data Science with Python Specialization](https://www.coursera.org/specializations/data-science-python) @ *University of Michigan* (Currently working on)
+- [Applied Data Science with Python Specialization](https://www.coursera.org/specializations/data-science-python) @ *University of Michigan*
   - [Introduction to Data Science in Python](https://www.coursera.org/learn/python-data-analysis) @ *University of Michigan* ([certificate](https://coursera.org/share/9936a845ef182117b2a94c1792386890))
   - [Applied Plotting, Charting & Data Representation in Python](https://www.coursera.org/learn/python-plotting) @ *University of Michigan* ([certificate](https://coursera.org/share/87d3b9318b7dfbfb2a9b97b4db688afa))
 - [Microeconomics Principles](https://www.coursera.org/learn/microeconomics) @ *University of Illinois at Urbana-Champaign* ([certificate](https://coursera.org/share/33e600bebdcef627c679373d89b2d891))
@@ -15,9 +17,9 @@ tags: certificate
 - [Cloud Computing Basics (Cloud 101)](https://www.coursera.org/learn/cloud-computing-basics) @ *LearnQuest* ([certificate](https://coursera.org/share/208ee6d635109b02f0c97a40c53adcc7))
 - [AI For Everyone](https://www.coursera.org/learn/ai-for-everyone) @ *DeepLearning.AI* ([certificate](https://coursera.org/share/311d12263824e14fdcba60e1edf13af5))
 - [Internet History, Technology, and Security](https://www.coursera.org/learn/internet-history) @ *University of Michigan* ([certificate](https://coursera.org/share/e8e146c8a148f3e1e04063defe3f8a8c))
-- [Google IT Automation with Python Certificate](https://www.coursera.org/professional-certificates/google-it-automation) @ *Google* (Currently working on)
+- [Google IT Automation with Python Certificate](https://www.coursera.org/professional-certificates/google-it-automation) @ *Google*
   - [Crash Course on Python](https://www.coursera.org/learn/python-crash-course) @ *Google* ([certificate](https://coursera.org/share/b75d9105177c579009c79e8d292579c2))
-
+- [Covid-19 Contact Tracing](https://www.coursera.org/learn/covid-19-contact-tracing) @ *Johns Hopkins University* ([certificate](https://coursera.org/share/b74f3c330fe72a5acab6dfb80ed946ae))
 ## Finished Specializations
 - [Google IT Support Professional Certificate](https://www.coursera.org/professional-certificates/google-it-support) @ *Google* ([certificate](https://coursera.org/share/790aba9a1e6420cccf2caf9feeea3b98))
   - [Operating Systems and You: Becoming a Power User](https://www.coursera.org/learn/os-power-user) @ *Google* ([certificate](https://coursera.org/share/9412f941d6b46b368977ce01d7c430e2))
@@ -48,5 +50,6 @@ tags: certificate
 * [Compose and Program Music in Python using Earsketch](https://www.coursera.org/projects/compose-program-music-in-python-using-earsketch) @ *Coursera Project Network* ([certificate](https://coursera.org/share/858ee2015c639f0efaa9b786777632db))
 * [Build a Full Website using WordPress](https://www.coursera.org/projects/build-a-full-website-using-wordpress) @ *Coursera Project Network* ([certificate](https://coursera.org/share/ce8da045072e6a2432fdc5751c1ce536))
 * [Introduction to Basic Game Development using Scratch](https://www.coursera.org/projects/introduction-to-basic-game-development-using-scratch) @ *Coursera Project Network* ([certificate](https://coursera.org/share/02b66974cf5e92ba1f632a19105fed73))
+
 
 

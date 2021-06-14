@@ -2,6 +2,7 @@
 date: 2021-06-12
 tags: coursera-quiz
 title: Cloud Computing Fundamentals on Alibaba Cloud
+status: ongoing
 ---
 > https://www.coursera.org/specializations/alibabacloud
 
