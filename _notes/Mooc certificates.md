@@ -3,7 +3,7 @@ date: 2021-04-21
 tags: certificate
 ---
 
-# My MOOC Certificates
+<!-- # My MOOC Certificates -->
 
 ## Courses
 * [Machine Learning](https://www.coursera.org/learn/machine-learning) @ *Stanford University* ([certificate](https://coursera.org/share/39de6ba3aea075f324c531d0a1ae469a))
