@@ -6,6 +6,8 @@ tags: certificate
 <!-- # My MOOC Certificates -->
 
 ## Courses
+- [Alibaba Cloud Computing Specialization](https://www.coursera.org/specializations/alibabacloud) @ *Alibaba Cloud Academy*
+  - [Cloud Computing Fundamentals on Alibaba Cloud](https://www.coursera.org/learn/alibaba-cloud-computing) @ *Alibaba Cloud Academy* ([certificate](https://coursera.org/share/a61b0b0d3c65600c2e9c7e170a8dfd69))
 * [Machine Learning](https://www.coursera.org/learn/machine-learning) @ *Stanford University* ([certificate](https://coursera.org/share/39de6ba3aea075f324c531d0a1ae469a))
 - [Introduction to Classical Music](https://www.coursera.org/learn/introclassicalmusic) @ *Yale University* ([certificate](https://coursera.org/share/a1b37bb0fb2f07100a5d3c97f4a04835))
 - [Applied Data Science with Python Specialization](https://www.coursera.org/specializations/data-science-python) @ *University of Michigan*
