@@ -379,3 +379,311 @@ status: ongoing
 
 
     - [x] SLB Instance's Backend ECS instance pool
+
+## Week5 Auto Scaling Quiz
+1.  Auto Scaling is a management service that can automatically adjusts elastic computing resources based on your business needs and policies. It supports adding existing ECS instances into the scaling group, whose status must be ________.
+
+
+
+   - [ ] Created 
+
+
+   - [x] Running
+
+
+   - [ ] Stopped
+
+
+   - [ ] Preparing
+
+2.  A video streaming company uses SLB to distribute user requests to 30 ECS instances (the 30 ECS instances have the same configuration). Yet, the company finds that the service traffic soars dramatically every night from 20:00 to 02:00. According to their calculation, the evening traffic is 100% higher than the traffic in other periods of time. To properly respond to user requests, which of the following methods is most preferred from the perspective of cost and implementation simplicity?
+
+
+
+   - [ ] Configure Auto Scaling to automatically upgrade and downgrade the ECS instances.
+
+
+   - [ ] Create 30 ECS instances based on the custom image and add them to SLB. Then, configure weights for these ECS instances to respond to user requests every night from 20:00 to 02:00, and reset those weights to zero for other periods of time.
+
+
+   - [x] Configure Auto Scaling to automatically add or reduce ECS instances.
+
+
+   - [ ] Manually create 30 ECS instances using the custom image, and then add them to SLB every night before 20:00 and remove them after 02:00.
+
+3.  A customer uses Alibaba Cloud Auto Scaling service and creates a scaling group. He sets the "Minimum number of instances" to 6 and "Maximum number of instances" to 8.  After correctly configuring scaling settings, the customer adds a scaling rule "Adjust to 10 ECS instances", and creates a scheduled task based on this rule. And then, the customer checks the scaling group and see it already contains 6 valid ECS instances, he then enables this scaling group immediately. How many ECS instance are left in the scaling group when the scheduled task is activated once?
+
+
+
+   - [x] Eight
+
+
+   - [ ] Ten
+
+
+   - [ ] Six
+
+
+   - [ ] Five
+
+4.  A scaling group in Auto Scaling refers to the collection of ECS instances with the same application scenario. Which of the following must be configured when creating a scaling group? (Number of correct answers: 3)
+
+
+
+   - [x] Region of scaling group
+
+
+   - [x] Cool-down Time
+
+
+   - [x] Scaling MaxSize and MinSize
+
+
+   - [ ] Scheduled/Event-triggered task
+
+5.  In Auto Scaling, the cool-down time of a scaling group refers to the lockout period after a scaling activity has been executed successfully. Which of the following statements about cool-down time are true? (Number of correct answers: 3)
+
+
+
+   - [ ] During the cool-down time of a scaling group, only the alarms from CloudMonitor can bypass the cool-down time and trigger scaling activities, whereas others will still subject to the cool-down time, such as the manually triggered scaling activities.
+
+
+   - [x] When a scaling group meets the cool-down time, you can abort the cool-down time by disabling and then restarting the scaling group.
+
+
+   - [x] When multiple ECS instances are added or removed from a scaling group, the cool-down time begins only when the last instance has been added or removed from the scaling group.
+
+
+   - [x] During the cool-down time, only the scaling activities in the same scaling group are locked.
+
+6.  Auto Scaling is a management service that can automatically adjust elastic computing resources based on your business needs and policies. Its key functions are ( ). (Number of correct answers: 3)
+
+
+
+   - [x] Horizontally adjusts ECS instances based on users' business needs, namely adds or reduces ECS instances automatically.
+
+
+   - [x] Supports configuring SLB to automatically add ECS instances or remove them from SLB instances.
+
+
+   - [x] Supports the ApsaraDB for RDS whitelist to automatically add the IP addresses of ECS instances or remove them from the ApsaraDB for RDS whitelist.
+
+
+   - [ ] Upgrades or downgrades the configuration (including the memory size and CPU) of a single ECS instance based on users' business needs.
+
+7.  There are scheduled tasks and event-triggered tasks in Auto Scaling. About event-triggered tasks, which of the following metrics are supported for this type of tasks? (Number of correct answers: 4)
+
+
+
+   - [x] CPU workload
+
+
+   - [x] Memory utilization rate
+
+
+   - [x] Average system workload
+
+
+   - [x] Inbound and outbound traffic
+
+
+   - [ ] Disk IOPS
+
+8.  Two modes are available for deleting scaling groups in Auto Scaling: ForceDelete mode and non-ForceDelete mode. Which of the following conditions must be met in non-ForceDelete mode? (Number of correct answers: 2)
+
+
+
+   - [x] No scaling activities are ongoing in the scaling group.
+
+
+   - [x] No ECS instances exist in the scaling group.
+
+
+   - [ ] No scheduled tasks and event-triggered tasks exist in the scaling group.
+
+
+   - [ ] The scaling group is not working in conjunction with SLB and ApsaraDB for RDS.
+
+9.  When using Auto Scaling, you have to create scaling group, scaling configuration, scaling rule, scheduled task and event-triggered task. When a task is created, the task will be triggered according to the pre-defined condition. Which of the following conditions can trigger a task? (Number of correct answers: 2)
+
+
+
+   - [x] The maximum CPU utilization rate of all the ECS instances in the scaling group is greater than 60%.
+
+
+   - [ ] The average IOPS of all the ECS instances in the scaling group is less than 100.
+
+
+   - [x] The user-defined activity execution time is met.
+
+
+   - [ ] More than 50% of the requests responded by all the ECS instances in the scaling group are write requests.
+
+10.   When using Auto Scaling, you want to execute a task at a specific time such as removing 1 ECS instance every night at 00:00. To achieve this, which of the following operations should be performed? (Number of correct answers: 2)
+
+   - [ ] Manually remove this the ECS instance from console.
+
+
+   - [x] Create a scaling rule.
+
+
+   - [x] Create a scheduled task.
+
+
+   - [ ] Create an event-triggered task.
+
+## Week6 Security Quiz
+
+1.   IT system risk management should be considered from a variety of different angles. Which of the following is a description of device and computing security?
+
+
+
+   - [ ] Includes network architecture, boundary protection, access control, intrusion prevention, and communication encryption.
+ 
+
+
+   - [ ] Includes security auditing, data integrity, and confidentiality.
+
+
+   - [ ] Includes PC room power supply, temperature and humidity control, and prevention of wind, rain, and lightning. 
+
+
+   - [x] Includes intrusion prevention, malicious code prevention, identity authentication, access control, central management and control, and security auditing.
+
+2.   Which of the following descriptions of the shared responsibilities security model is CORRECT?
+
+
+
+   - [ ] After beginning to use cloud service, users only need to pay attention to the security of their own apps and data. All other security will be the responsibility of the cloud service provider.
+
+
+   - [ ] After beginning to use cloud service, the cloud service provider will become responsible for all of the user’s security. 
+
+
+   - [ ] After beginning to use cloud service, users must still take care of physical and environmental security.
+
+
+   - [x] After beginning to use cloud service, the user and the cloud service provider will be jointly responsible for cloud security, with each responsible for different layers of security.
+
+3.   If an enterprise chooses the “All In One” deployment structure, which of the following security issues need NOT be considered?
+
+
+
+   - [x] Data transmission security
+
+
+   - [ ] Log-in security
+
+
+   - [ ] Application access attacks
+
+
+   - [ ] Network attacks
+
+4.   Regarding Alibaba Cloud’s data security protection, which of the following can satisfy data backup and disaster recovery requirements?
+
+
+
+   - [ ] Alibaba Cloud Certificates
+
+
+   - [ ] ApsaraDB Encrypted Storage
+
+
+   - [x]  ECS Snapshot
+
+
+   - [ ] HTTPDNS
+
+5.   Which of the folllowing option is not the function provided by VPC?
+
+
+
+   - [ ] Security isolation
+
+
+   - [x] Accelerate the network access speed
+
+
+   - [ ] Customized network configuration
+
+
+   - [ ] Support various network connections
+
+6.   Which of the following methods CANNOT increase account security?
+
+
+
+   - [ ] Strong password policies
+
+
+   - [ ] Periodically reset the user login passwords
+
+
+   - [ ] Adhere to the minimum authorization principle
+
+
+   - [x] Unite user management, permission management and resource management into a single management process
+
+7.   Which of the following Alibaba Cloud products need to be considered to use if you want to build an elastic computing cluster to provide web service together and also with dynamic data and static data separately stored? (Number of Correct Answers: 4)
+
+
+
+   - [x] ECS
+
+
+   - [x] SLB
+
+
+   - [x] RDS
+
+
+   - [x] OSS
+
+
+   - [ ] KMS
+
+8.   Cloud Monitor provides monitoring service to Alibaba Cloud resources and internet applications. Which of the following statements is correct: 
+
+
+
+   - [ ] Users can not use Cloud Monitor through console f
+
+
+   - [x] Cloud Monitor also supports monitoring websites that are not deployed on Alibaba Cloud
+
+
+   - [ ] Users need to purchase CloudMonitor service separately before use
+
+
+   - [ ] Cloud Monitor does not support monitoring websites not deployed on Alibaba Cloud 
+
+9.   Regarding the 'Shared Security Responsibilities' on Alibaba Cloud, which of the following options are the responsibilities Cloud user need to take care of? (Number of Correct Answers: 3)
+
+
+
+   - [x] Data security inside ECS
+
+
+   - [ ] Physical servers water proof
+
+
+   - [x] Application vulnerabilities
+
+
+   - [x] ECS network configuration
+
+10.   Anti-DDoS is one of the major Alibaba Cloud Security products. Many websites have experienced different types of DDoS attacks, an accurate understanding of DDoS is crucial to protect websites. Which of the following descriptions about DDoS attacks is the most accurate one?
+
+
+
+   - [ ] The main target for DDoS attacks are databases.
+
+
+   - [ ] DDoS attacks will try to crack  passwords through a large number of attempts.
+
+
+   - [x] The main purpose of a DDoS attack is to make the target server unable to provide service normally, which why it  is one of the most difficult network attacks to defend. 
+
+
+   - [ ] The purpose of a DDoS attack is to steal confidential information.
