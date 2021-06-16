@@ -226,3 +226,156 @@ status: ongoing
 
 
     - [ ] Return page
+
+## Week4 SLB Quiz
+1. When using Alibaba Cloud SLB, users can enable the health check function. For Layer 4 services (UDP protocol), SLB determines the availability of ECS instances through?
+
+
+
+    - [ ] Special characters contained in the message returned from backend ECS instances
+
+
+    - [ ] Length of message returned from backend ECS instances 
+
+
+    - [x] Whether it receives the required data packet from the backend ECS instance within the configured response timeout period or not.
+
+
+    - [ ] Status codes returned from backend ECS instances 
+
+2. Your website has high volume of traffic and sudden spikes for a very short time. In this scenario, which product can manage traffic peak efficiently and maintain a consistent user experience?
+
+
+
+    - [ ] Auto Scaling
+
+
+    - [x] Server Load Balancer
+ 
+
+
+    - [ ] RDS
+
+
+    - [ ] VPC
+
+3. Applications or websites with users from different parts of the world will require low latency and high availability (HA) with multilayer disaster recovery.  In this scenario, except Auto Scaling should be used along with Server Load Balancer, which service is also suggested to be used together?
+
+
+
+    - [ ] RDS
+
+
+    - [ ] MaxCompute F
+
+
+    - [x] DNS
+
+
+    - [ ] VPC
+
+4. Which feature in Server Load Balancer means that it can forward the access requests from a single user to the same ECS instance within a certain period to ensure session continuity?
+
+
+
+    - [ ] Weighted Round Robin F
+
+
+    - [x] Session persistence
+ 
+
+
+    - [ ] Health check
+
+
+    - [ ] Least connections scheduling
+
+5. Server Load Balancer provides central certificate management system for which of the following protocol?
+
+
+
+    - [ ] UDP
+
+
+    - [ ] TCP
+
+
+    - [ ] HTTP
+
+
+    - [x] HTTPS
+
+6. A company uses Alibaba Cloud SLB and Auto Scaling at the same time, hoping this combination can help save O&M cost and provide a stable and reliable system. 
+ 
+    As an expert of Alibaba Cloud, which of the following statement is true?
+
+
+
+    - [ ] All backend servers under the same SLB instance must be in the same Scaling Group  F
+
+
+    - [ ] All ECS instances under the same SLB instance must be running on the same operating system
+
+
+    - [ ] All backend servers under the same SLB instance must have the same configuration
+
+
+    - [x] SLB instances must have Health Check enabled, or they cannot be used together with Auto Scaling
+
+7. You are developing a highly available web application using stateless web servers. Which services are suitable for storing session state data?
+
+
+
+    - [ ] OSS 
+
+
+    - [x] Table Store
+
+
+    - [x] RDS
+
+
+    - [ ] MaxCompute
+
+8. An enterprise built an isolated network environment by using Alibaba Cloud VPC, and connected this VPC and a traditional data center via VPN. As a result, this enterprise can seamlessly migrate data from its traditional data center to Alibaba Cloud.  Now they need to receive user requests from the Internet, and assign these requests to multiple ECS instances inside the VPC by using SLB. Which of the following statements are correct?
+
+    - [x] They can create an SLB instance in the VPC, and mount ECS instances within the VPC to this SLB instance.  And then use a jump server to receive external requests, and direct these requests to SLB to forward them to backend ECS instances.
+
+
+    - [ ] They can create an SLB instance in the VPC, and mount ECS instances within the VPC to this SLB instance. And then, bind an EIP to the SLB, so that this SLB instance can receive requests from the Internet, and assign these requests to the backend ECS instances.
+
+
+    - [x] They can create an SLB instance with an Internet IP address, and mount ECS instances within the VPC to this SLB instance. The public SLB will be used to receive external requests. As a result, requests from the Internet will be transferred to backend ECS instances within the VPC.
+
+
+    - [ ] They can create an SLB instance with an Internet IP address, and mount ECS instances within the VPC and servers of the traditional data center to this SLB instance. The public SLB will be used to receive external requests. As a result, requests from the Internet will be transferred to backend ECS instances within the VPC and servers of the traditional data center.
+
+9. Usually, Alibaba Cloud SLB, ECS, and Auto Scaling are used together. Which of the following statements are correct? 
+
+
+
+    - [x] SLB instances must have Health Check enabled, or they cannot be used in combination with Auto Scaling.
+
+
+    - [x] An SLB instance can bind multiple Scaling Groups
+
+
+    - [x] The three must be within the same region if they are going to be used in combination.
+
+
+    - [ ] A Scaling Group can support multiple SLB instances simultaneously
+
+10. Alibaba Cloud SLB is a service for distributing traffic among multiple ECS instances. To make SLB works as desired, you need to set which of the following configurations carefully. 
+
+
+
+    - [x] SLB instance's property
+
+
+    - [ ] SLB Instance's IP address
+
+
+    - [x] SLB Instance's Listener
+
+
+    - [x] SLB Instance's Backend ECS instance pool
