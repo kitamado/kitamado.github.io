@@ -93,3 +93,136 @@ status: ongoing
 8.  RDS is a PaaS, what is the full term of PaaS in cloud computing?
 
     - [x] Platform as a service
+
+## Week3 OSS Quiz
+1. Alibaba Cloud Object Storage Service (OSS) is a massive, highly available, secured and cost effective storage service. OSS is superior than self-built storage in all these aspects. Which of the following advantage relates to the high availability of OSS?
+
+    - [ ] Availability actually relies on the underlying hardware, which can break down easily. Once the hard disk malfunctions, it can also lead to permanent data loss.
+
+
+    - [x] Data Reliability is not less than 99.99999999%. Data is backed up automatically with multiple redundant copies.
+
+
+   - [ ] Data has to be backed up by customer manually, which is time-consuming and labor-intensive.
+
+
+    - [ ] The following features are available: Multiple Authentication and Authorization mechanism, Whitelist, Anti-leech URL, and Master-Sub Account
+
+2. Alibaba Cloud Object Storage Service (OSS) is a massive, highly available, secured and cost effective storage service. One of the special characteristics of OSS is its superior data reliability, because of its underlying backup technology and policies. Which of the following statement about OSS backup is correct?
+ 
+    - [ ] OSS supports 3 internal data copies, so the data can be  manually recovered should there be any problem.
+
+
+    - [ ] Customer has to safeguard their own data. OSS provides various backup interfaces to facilitate offsite backups.
+
+
+    - [ ] OSS leverages RAID0+1 configuration of its underlying physical hard disks. There is no impact even if 2 hard disks were to fail simultaneously.
+
+
+    - [x] OSS supports 3 internal data copies, no human intervention is required to recover the data when anything goes wrong.
+
+3. Alibaba Cloud OSS is a cloud storage service that features massive capacity, outstanding security, low cost, and high reliability. Files managed by OSS can be easily shared with external applications. Before sharing a file, you can find the URL of the file from the detail page of a file. The sharing is done by using ( ) application-layer protocol.
+
+   - [ ] FTP
+
+
+    - [x] HTTP
+
+
+    - [ ] TCP
+
+
+    - [ ] SMTP
+
+4. After activating the OSS service, you must create buckets in the OSS management console or by using Open API before you can store files. Which of the following statements is true for buckets?
+
+    - [x] Bucket names must be globally unique and cannot be changed once created.
+
+
+    - [ ] Bucket names must be globally unique but can be changed after being created.
+
+
+    - [ ] Bucket names must be unique under each account and can be changed after being created.
+
+
+    - [ ] Bucket names must be unique under each account and cannot be changed once created.
+
+5. OSS supports massive file storage and provides multiple file deletion functions.
+ 
+    Which of the followings is most suitable if many objects need to be deleted with a pattern, for example, to delete all the objects generated before a specific day?
+
+   - [ ] Deletes the objects one by one in the management console.
+
+
+    - [ ] Deletes the objects in batch in the management console.
+
+    - [x] Deletes the objects with lifecycle management.
+
+    - [ ] Deletes the objects one by one using Open API.
+
+6. In OSS, all data is stored in buckets. When an OSS bucket is set with the ( ) permission, the OSS Bucket allows other users to read (GET Object) the objects in the bucket.
+
+    - [x] Public-read-write
+
+
+    - [ ] Public-read
+
+
+    - [ ] Private
+
+
+    - [ ] Private-read
+
+7. An object is the basic unit of data stored in OSS.  Which of the following file operations are supported by OSS? (Number of correct answers: 3)
+
+
+    - [x] File modification
+
+
+    - [ ] File uploading
+
+
+    - [ ] File deletion
+
+
+    - [ ] File reading
+
+8. When using Alibaba Cloud OSS, you can set access control in 3 different levels, which are ( ) (Number of correct answers: 3)
+
+
+    - [x] Bucket level
+
+
+    - [x] Object level
+
+
+    - [x] RAM account level
+
+
+    - [ ] Directory level
+
+9. In OSS Image Processing service, URLs are accessed with standard HTTP GET requests, and all processing parameters are in the QueyString of the URL. Which of the following modes are supported by image processing function?(Number of correct answers: 2)
+
+    - [ ] Picture mode
+
+
+    - [x] Parameter mode
+
+
+    - [x] Style mode
+
+
+    - [ ] Interactive mode
+
+10. Which 2 parameters you need to configure to setup a static website hosted on an OSS bucket? (Number of correct answers: 2)
+
+    - [x] Default page
+
+
+    - [ ] Navigation page
+
+
+    - [x] 404 page
+
+
+    - [ ] Return page
