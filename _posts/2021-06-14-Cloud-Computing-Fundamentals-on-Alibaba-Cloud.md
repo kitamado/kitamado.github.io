@@ -1,9 +1,8 @@
 ---
-date: 2021-06-12
 tags: coursera-quiz
 title: Cloud Computing Fundamentals on Alibaba Cloud
 ---
-> https://www.coursera.org/specializations/alibabacloud
+> [https://www.coursera.org/specializations/alibabacloud](https://www.coursera.org/specializations/alibabacloud)
 
 * TOC
 {:toc}
