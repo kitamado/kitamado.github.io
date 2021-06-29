@@ -1,6 +1,7 @@
 ---
-date: 2021-04-21
 tags: certificate
+title: Mooc certificates
+tag: other
 ---
 
 <!-- # My MOOC Certificates -->
