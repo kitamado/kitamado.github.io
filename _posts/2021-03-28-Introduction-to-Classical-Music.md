@@ -1,7 +1,7 @@
 ---
 tags: coursera-quiz
 title: Introduction to Classical Music
-comments: true
+
 ---
 
 > 古典音乐导论 Coursera

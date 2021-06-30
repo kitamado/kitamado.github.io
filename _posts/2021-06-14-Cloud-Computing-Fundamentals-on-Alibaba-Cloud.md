@@ -1,7 +1,7 @@
 ---
 tags: coursera-quiz
 title: Cloud Computing Fundamentals on Alibaba Cloud
-comments: true
+
 ---
 > [https://www.coursera.org/specializations/alibabacloud](https://www.coursera.org/specializations/alibabacloud)
 
