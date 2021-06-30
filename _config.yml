@@ -4,16 +4,73 @@ user_description: Undergraduate at USTC.
 notes_url: "https://kitamado.github.io/"
 profile_pic: /assets/img/profile.png
 favicon: /assets/img/favicon.png
-copyright_name: kitamado
+# copyright_name: kitamado
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://kitamado.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 encoding: utf-8
+
+copyright: 
+  year: 2021
+  msg:  kitamado 
+
+
+#####################################################################
+# Settings related to your preferences go here, such as the
+# search results, wiki-style-links, sidenotes, marginnotes, 
+# transclusion, pagepreview, backlinks, related posts, highlighting, 
+# context menu, flashcards, sliding window, wrapping
+#####################################################################
+preferences:
+  search:
+    enabled: true
+    shortcut_hint: 
+        enabled: true
+  wiki_style_link: # This property handles wiki style links '[['
+    enabled: true
+  sidenotes: 
+    enabled: true
+  transclusion:
+    enabled: true
+  image:
+    enabled: true
+  pagepreview:
+    enabled: true
+  highlighting:
+    enabled: true
+    color: DAEDFF # Takes hexadecimal and basic names like white, red, etc. 
+                  # Do not add '#'(the pound symbol) before the hexadecimal number.
+                  # In yml, it is considered as a comment
+  backlinks:
+    enabled: true
+  related:
+    enabled: true # This enables the posts that are related to each other by tags
+  wrapping:
+    enabled: true
+  contextmenu:
+    enabled: true
+    copylink: 
+      enabled: true
+    newtab: 
+      enabled: true
+    backlinks: 
+      enabled: true
+    related: 
+      enabled: true
+  flashcards:
+    enabled: true
+
+# Disqus Comments
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: kitamado
 
 # Build settings
 theme: null
 plugins:
   - jekyll-feed 
   - jekyll-sitemap 
+  - jekyll-tidy
 
 markdown: kramdown
 
