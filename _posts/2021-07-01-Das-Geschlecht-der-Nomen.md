@@ -10,7 +10,7 @@ title: Das Geschlecht der Nomen
 * TOC
 {:toc}
 
-### Proportion
+## Proportion
 德语阳阴性名词比例
 
 | der | das | die |
@@ -19,7 +19,7 @@ title: Das Geschlecht der Nomen
 
 - 不知道猜阴性^ ^
 
-### DER maskuline Nomen
+## DER maskuline Nomen
 - Wochentage工作日
   - der Montag, der Dienstag, ...
 - Monate
@@ -42,7 +42,7 @@ title: Das Geschlecht der Nomen
 - Währungen货币
   - der Euro, der Dollar, der Rubel卢布, der Peso比索
   - aber: **die Rupie**卢比 und **das Pfund**英镑
-#### Endungen (die typisch für maskuline Nomen)
+### Endungen (die typisch für maskuline Nomen)
   - **-or**
     - der Motor摩托, der Direktor导演
   - **-ig/-ich**
@@ -60,7 +60,7 @@ title: Das Geschlecht der Nomen
   - **-eur/-ör**
     - der Ingenieur, der Frisör美发师
 
-### DIE feminine Nomen
+## DIE feminine Nomen
 - Zahlen
   - die Eins, die Fünf, die Achtunddreßig
 - Bäume und Pflanzen树木和植物
@@ -68,7 +68,7 @@ title: Das Geschlecht der Nomen
 - Obstsorten
   - die Banane, die Kiwi, die Traube葡萄
   - Aber **der Apfel**
-#### Endungen (f.)
+### Endungen (f.)
   - **-ung**
     - die Heizung暖气, die Rechnung账单, die Versicherung保险
   - **-keit/-heit** 复数加-en
@@ -93,7 +93,7 @@ title: Das Geschlecht der Nomen
     - 以-e结尾的许多名词，尤其是两个音节的名词
     - die Lampe, die Straße, die Reise
 
-### DAS neutrale Nomen
+## DAS neutrale Nomen
 - Nominalisierungen 名词化，这意味着把动词或形容词直接当作名词
   - das Laufen (也可以变出der Läufer, die Läuferin), das Gute, das Schöne, das Sprechen
 - Farben颜色
@@ -106,7 +106,7 @@ title: Das Geschlecht der Nomen
   - das Öl油
 - Bruchzahlen
   - das Viertel(1/4), das Drittel(1/3), das Fünftel(1/5)
-#### Endungen (n.)
+### Endungen (n.)
   - **-chen/-lein** 缩小化，复数 - (单复数形式相同)
     - das Fräulein, das Männlein, das Häuschen
   - **-ma**
