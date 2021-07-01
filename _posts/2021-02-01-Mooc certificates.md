@@ -7,8 +7,6 @@ tag: other
 <!-- # My MOOC Certificates -->
 
 ## Courses
-- [Alibaba Cloud Computing Specialization](https://www.coursera.org/specializations/alibabacloud) @ *Alibaba Cloud Academy*
-  - [Cloud Computing Fundamentals on Alibaba Cloud](https://www.coursera.org/learn/alibaba-cloud-computing) @ *Alibaba Cloud Academy* ([certificate](https://coursera.org/share/a61b0b0d3c65600c2e9c7e170a8dfd69))
 * [Machine Learning](https://www.coursera.org/learn/machine-learning) @ *Stanford University* ([certificate](https://coursera.org/share/39de6ba3aea075f324c531d0a1ae469a))
 - [Introduction to Classical Music](https://www.coursera.org/learn/introclassicalmusic) @ *Yale University* ([certificate](https://coursera.org/share/a1b37bb0fb2f07100a5d3c97f4a04835))
 - [Applied Data Science with Python Specialization](https://www.coursera.org/specializations/data-science-python) @ *University of Michigan*
@@ -22,8 +20,11 @@ tag: other
 - [Internet History, Technology, and Security](https://www.coursera.org/learn/internet-history) @ *University of Michigan* ([certificate](https://coursera.org/share/e8e146c8a148f3e1e04063defe3f8a8c))
 - [Google IT Automation with Python Certificate](https://www.coursera.org/professional-certificates/google-it-automation) @ *Google*
   - [Crash Course on Python](https://www.coursera.org/learn/python-crash-course) @ *Google* ([certificate](https://coursera.org/share/b75d9105177c579009c79e8d292579c2))
+- [Alibaba Cloud Computing Specialization](https://www.coursera.org/specializations/alibabacloud) @ *Alibaba Cloud Academy*
+  - [Cloud Computing Fundamentals on Alibaba Cloud](https://www.coursera.org/learn/alibaba-cloud-computing) @ *Alibaba Cloud Academy* ([certificate](https://coursera.org/share/a61b0b0d3c65600c2e9c7e170a8dfd69))
 - [Covid-19 Contact Tracing](https://www.coursera.org/learn/covid-19-contact-tracing) @ *Johns Hopkins University* ([certificate](https://coursera.org/share/b74f3c330fe72a5acab6dfb80ed946ae))
 - [COVID-19: What You Need to Know (CME Eligible)](https://www.coursera.org/learn/covid-19-what-you-need-to-know) @ *Osmosis* ([certificate](https://coursera.org/share/f084c4a41272308f418478ea4d73584d))
+
 ## Finished Specializations
 - [Google IT Support Professional Certificate](https://www.coursera.org/professional-certificates/google-it-support) @ *Google* ([certificate](https://coursera.org/share/790aba9a1e6420cccf2caf9feeea3b98))
   - [Operating Systems and You: Becoming a Power User](https://www.coursera.org/learn/os-power-user) @ *Google* ([certificate](https://coursera.org/share/9412f941d6b46b368977ce01d7c430e2))
@@ -46,15 +47,17 @@ tag: other
   * [Python Data Structures](https://www.coursera.org/learn/python-data) @ *University of Michigan* ([certificate](https://coursera.org/share/3fc86d75e5cb7c9f2bf1ea08912331ec))
   * [Programming for Everybody (Getting Started with Python)](https://www.coursera.org/learn/python) @ *University of Michigan* ([certificate](https://coursera.org/share/60113d1e702b84b4141b2b96ab2af3c9))
 
-## Udemy
-  * [The Ultimate MySQL Crash Course 2021](https://www.udemy.com/course/the-ultimate-mysql-crash-course-2021/) Created by *Web Coding* ([certificate](https://www.udemy.com/certificate/UC-1896c5cd-52ee-4e7f-9311-4b85f2af2ba6/))
-
 ## Miscellaneous
+- [Introduction to Cloud Identity](https://www.coursera.org/learn/cloud-identity) @ *Google Cloud* ([certificate](https://coursera.org/share/36eacd54ba2ba05a1112606d0d50cdb4))
+- [The Challenges of Global Health](https://www.coursera.org/learn/global-health) @ *Duke University* ([certificate](https://coursera.org/share/adfd4b664637a71d6d2503dd3ad6e585))
+- [Getting Started with AWS Machine Learning](https://www.coursera.org/learn/aws-machine-learning) @ *Amazon Web Services* ([certificate](https://coursera.org/share/e7c872810f7931d0c040504aa7979d58))
 * [Transfer Learning for NLP with TensorFlow Hub](https://www.coursera.org/projects/transfer-learning-nlp-tensorflow-hub) @ *Coursera Project Network* ([certificate](https://coursera.org/share/133a64481420d85bf2145ec91d46930f))
 * [Machine Learning Pipelines with Azure ML Studio](https://www.coursera.org/projects/azure-machine-learning-studio-pipeline) @ *Coursera Project Network* ([certificate](https://coursera.org/share/2f41f1f62ce3f4bc78ec7fe05dbf5bef))
 * [Compose and Program Music in Python using Earsketch](https://www.coursera.org/projects/compose-program-music-in-python-using-earsketch) @ *Coursera Project Network* ([certificate](https://coursera.org/share/858ee2015c639f0efaa9b786777632db))
 * [Build a Full Website using WordPress](https://www.coursera.org/projects/build-a-full-website-using-wordpress) @ *Coursera Project Network* ([certificate](https://coursera.org/share/ce8da045072e6a2432fdc5751c1ce536))
 * [Introduction to Basic Game Development using Scratch](https://www.coursera.org/projects/introduction-to-basic-game-development-using-scratch) @ *Coursera Project Network* ([certificate](https://coursera.org/share/02b66974cf5e92ba1f632a19105fed73))
 
+## Udemy
+  * [The Ultimate MySQL Crash Course 2021](https://www.udemy.com/course/the-ultimate-mysql-crash-course-2021/) Created by *Web Coding* ([certificate](https://www.udemy.com/certificate/UC-1896c5cd-52ee-4e7f-9311-4b85f2af2ba6/))
 
 
