@@ -22,8 +22,9 @@ tag: other
   - [Crash Course on Python](https://www.coursera.org/learn/python-crash-course) @ *Google* ([certificate](https://coursera.org/share/b75d9105177c579009c79e8d292579c2))
 - [Alibaba Cloud Computing Specialization](https://www.coursera.org/specializations/alibabacloud) @ *Alibaba Cloud Academy*
   - [Cloud Computing Fundamentals on Alibaba Cloud](https://www.coursera.org/learn/alibaba-cloud-computing) @ *Alibaba Cloud Academy* ([certificate](https://coursera.org/share/a61b0b0d3c65600c2e9c7e170a8dfd69))
-- [Covid-19 Contact Tracing](https://www.coursera.org/learn/covid-19-contact-tracing) @ *Johns Hopkins University* ([certificate](https://coursera.org/share/b74f3c330fe72a5acab6dfb80ed946ae))
+
 - [COVID-19: What You Need to Know (CME Eligible)](https://www.coursera.org/learn/covid-19-what-you-need-to-know) @ *Osmosis* ([certificate](https://coursera.org/share/f084c4a41272308f418478ea4d73584d))
+- [Ecology: Ecosystem Dynamics and Conservation](https://www.coursera.org/learn/ecology-conservation) @ *American Museum of Natural History & Howard Hughes Medical Institute* ([certificate](https://coursera.org/share/fb9324419ecd2a09c224c79db68f425b))
 
 ## Finished Specializations
 - [Google IT Support Professional Certificate](https://www.coursera.org/professional-certificates/google-it-support) @ *Google* ([certificate](https://coursera.org/share/790aba9a1e6420cccf2caf9feeea3b98))
@@ -48,6 +49,8 @@ tag: other
   * [Programming for Everybody (Getting Started with Python)](https://www.coursera.org/learn/python) @ *University of Michigan* ([certificate](https://coursera.org/share/60113d1e702b84b4141b2b96ab2af3c9))
 
 ## Miscellaneous
+- [Epidemiology: The Basic Science of Public Health](https://www.coursera.org/learn/epidemiology) @ *The University of North Carolina at Chapel Hill* ([certificate](https://coursera.org/share/1e7e8dad47a8985afc50440d9e3ea7e0))
+- [Covid-19 Contact Tracing](https://www.coursera.org/learn/covid-19-contact-tracing) @ *Johns Hopkins University* ([certificate](https://coursera.org/share/b74f3c330fe72a5acab6dfb80ed946ae))
 - [Introduction to Cloud Identity](https://www.coursera.org/learn/cloud-identity) @ *Google Cloud* ([certificate](https://coursera.org/share/36eacd54ba2ba05a1112606d0d50cdb4))
 - [The Challenges of Global Health](https://www.coursera.org/learn/global-health) @ *Duke University* ([certificate](https://coursera.org/share/adfd4b664637a71d6d2503dd3ad6e585))
 - [Getting Started with AWS Machine Learning](https://www.coursera.org/learn/aws-machine-learning) @ *Amazon Web Services* ([certificate](https://coursera.org/share/e7c872810f7931d0c040504aa7979d58))
