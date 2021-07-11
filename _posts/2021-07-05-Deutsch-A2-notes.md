@@ -266,6 +266,7 @@ status: ongoing
     - *Tut mir leid, ich bin auch fremd hier./ Ich kenne mich hier nicht gut aus. Fragen Sie lieber andere.*
   - Es ist schon sehr spät und es fährt kein Bus mehr. Sie Stehen auf der Straße. Da kommt zum Glück Ihr Mitstudent in einem alten Auto vorbei und hält an. Was sagen Sie zu ihm?
     - *Hallo, XX, Wohin fährst du jetzt? Ich wollte mit dem Bus nach Hause fahren, aber jetzt fährt kein Bus mehr. Darf ich wielleicht in deinem Auto mitfahren?*
+  
   <!-- - Es ist schon sehr spät und es fährt kein Bus mehr. Sie fahren mit einem Taxi nach Hause. Da sehen Sie eine junge Dame aud der straße, sie wartet noch auf den Bus. Was sagen Sie zu ihr?
     - *Guten Abend! Es fährt jetzt leider kein Bus mehr. Wenn es Ihnen -->
 
@@ -335,3 +336,86 @@ status: ongoing
   - kennen,wissen在表示知道、了解的意义时，kennen更强调对某人、某的性格、特点更进一步的认知，wissen更强调由自己的所听所经历而得知。
   - kennen后常接具体名词/人，wissen后常带从句以及指示代词。
   - Er weiß das, alles, nichts, viel, wenig. 
+
+### Genitiv
+
+  **Was ist Genitiv?**
+  - 作定语, 表示所属(所有格)
+    - das Haus von meinem Bruder 借助介词表示所属
+    - das Haus meines Bruders 用第二格表示所属
+  - 句子搭配要求(动词、形容词、介词等)
+    - Ich bin **der Meinung**, dass ...
+    - Viele junge Menschen treiben diesen Sport **wegen der Gefahr** und der Spannung.
+
+{:.medium .serif .oblique}
+#### Genitiv bei Artikeln und Possessivpronomen
+
+[[二格中冠词和主代词的词尾变化::lmn]]
+
+| | bestimmter Artikel| unbestimmter Artikel| Possessivpronomen|
+|:-----:|:-----:|:-----:|:------:|
+|m| das Büro **des** Lehrers| das Büro **eines** Lehrers| das Büro **meines** Lehrers|
+|n| die Schule **des** Kindes| die Schule **eines** Kindes| die Schule **ihrers** Kindes|
+|f| die Uhr **der** Frau| die Uhr **einer** Frau| die Uhr **seiner** Frau|
+|Pl.| die Taschen **der** Frauen| -- | die Taschen **unserer** Frauen|
+
+  - 阳性、中性名词单数在第二格时有词尾变化
+    - 大多数多音节名词词尾直接加s，如des Lehrers, des Verkäufers, des Früstüks usw.
+    - 单音节词词尾常加es，不造成发音困难时也只加s，如des Kindes, des Spieles(des Spels), eines Buches(eines Buchs)
+    - 以s, ß, x, z, sch结尾，词尾必须加es，如des Buses, eines Fußes, des Tisches usw.
+    - 阴性单数和复数名词无词尾变化：einer Frau, der Bücher...
+  - wessen谁的：wer第二格形式
+
+{:.medium .serif .oblique}
+#### Genitiv bei Namen
+
+[[名字的第二格::lmn]]
+
+  - 名字词尾直接加s，这里也包括地名以及中性的国民
+    - Hangzhous Landschaft, Chinas Essen usw
+    - Herr**n**[[Herr是阳性弱变化名词::rsn]] Hoffmanns Garten
+  - 当名字结尾是s,ß,x以及z结尾时，名字词尾不要再加s，只需要`'`
+    - Franz' Arbeit gefällt ihn nicht
+    - Hans Groß Frau' ist klein
+
+{:.medium .serif .oblique}     
+#### Adjektiv-Deklinationen im Genitiv
+
+[[第二格中形容词的词尾变化::lmn]]
+
+| m | n | 
+|:----:|:----:|
+|das Spiel des neu**en** Spielers| die Übnung des alt**en** Buches|
+|das Spiel eines neu**en** Spielers| die Übnung eines alt**en** Buches|
+|das Spiel meines neu**en** Spielers| die Übnung unseres alt**en** Buches|
+|der Preis schwarzen Tees| der Preis frischen Wassers|
+
+
+|f| pl.| 
+|:----:|:----:|
+|der Sieg der bekannt**en** Mannschaft| die Meinungen der berufstätig**en** Frauen|
+|der Sieg einer bekannt**en** Mannschaft| die Meinungen unserer berufstätig**en** Frauen|
+|der Sieg unserer bekannt**en** Mannschaft| die Meinungen unserer berufstätig**en** Frauen|
+|der Preis frisch**er** Milch| die Meinungen berufstätig**er** Frauen| 
+
+  - 只要形容词前有冠词，无论是定冠词、不定冠词、还是物主代词，形容词词尾均为en。即按弱变化规则变
+  - 阴性单数零冠词和复数零冠词时形容词按强变化规则，词尾为er
+  - 二格结构中冠词(定冠词、不定冠词、物主代词)以及阳中性名词单数本身的二格词尾不要忘记。尤其是阳性和中性名词零冠词时，词尾的s/es不要忘记
+
+{:.medium .serif .oblique}
+#### Präpositionen: trotz, wegen, während, statt/anstatt + G
+
+  - Es regnet sehr stark. Aber er geht spazieren.
+  - --> **Trotz** des starken Regens[[名词化::rsn]] geht er spazieren. 
+  
+---
+  - Die Sportlerinwar schwer krank. Sie durfte nicht Tennis spielen.
+  - --> **Wegen** ihrer schweren Krankheit durfte sie nicht Tennis spielen.
+
+---
+  - Die Touristen machen Urlaub. Sie haben wieles gesehen und erlebt.
+  - --> Die Touristen haben **während** des Urlaubs wieles geschen und erlebt.
+
+---
+  - Er möchte ein Radio kaufen, findet aber kein gutes Radio. Er kauft einen billigen Fernseher.
+  - --> **Statt** eines Radios kauft er einen billigen Fernseher.
