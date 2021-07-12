@@ -420,7 +420,7 @@ status: ongoing
   - Er möchte ein Radio kaufen, findet aber kein gutes Radio. Er kauft einen billigen Fernseher.
   - --> **Statt** eines Radios kauft er einen billigen Fernseher.
 
-#### Schreiben Text D
+### Schreiben Text D
 > --Einleitung
 >   - Es geht in dem Text un ...
 >   - Der Text berichtet über ...
@@ -433,3 +433,30 @@ status: ongoing
 Erstens ist die Kommerzialisierung des Sports. Die Sportler weben für viele Dinge, die Leute müssen sie kaufen. Das hat mit Sport nichts zu tun. Zweitens ist es, dass Hochleistungssport ...
 **Ein weiterer Augument dagegen ist**, dass ...
 **Der dritte Argument ist, dass** sie wegen des harten Trainings keine Zeit für die Schule und Ausbildung haben. ...
+
+### Worblidung 词汇构成
+
+{:.medium .serif .oblique}
+#### Suffixe -ung und -tion bei Fremdwörtern
+
+| Substantiv(Verbstamm + Endung) | Verb |
+|:-----:|:------:|
+| die Beschäftig**ung**, -en | (sich) Beschäftigen|
+| die Ausstell**ung**, -en| ausstellen|
+|die Informa**tion**, -en | informieren|
+
+- 词性大多数是die，**Aber**: der Aufschwung, die Aufschwünge
+
+{:.medium .serif .oblique}
+#### Suffixe -heit und -keit 
+
+|Substantiv(Verbstamm + Endung) | Verb |
+|:-----:|:------:|
+|die Gesund**heit**|gesund|
+|die Berühmt**heit**| berühmt|
+|die Wichtig**keit**| wichtig|
+
+- 以-ig, -lich, -sam, -bar结尾的形容词变化而来的名词都以-keit结尾
+- **Aber**：Sauberkeit整洁，Tapferkeit勇敢，Heiterkeit喜悦 
+- 其他基本以-heit结尾
+- 有形容词变化而来的名词，词性都为die，一般没有复数形式[[Das Geschlecht der Nomen::rmn-transclude]]
