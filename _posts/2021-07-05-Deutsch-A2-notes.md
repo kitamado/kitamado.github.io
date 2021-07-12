@@ -376,7 +376,7 @@ status: ongoing
     - Herr**n**[[Herr是阳性弱变化名词::rsn]] Hoffmanns Garten
   - 当名字结尾是s,ß,x以及z结尾时，名字词尾不要再加s，只需要`'`
     - Franz' Arbeit gefällt ihn nicht
-    - Hans Groß Frau' ist klein
+    - Hans Groß' Frau ist klein
 
 {:.medium .serif .oblique}     
 #### Adjektiv-Deklinationen im Genitiv
@@ -414,8 +414,22 @@ status: ongoing
 
 ---
   - Die Touristen machen Urlaub. Sie haben wieles gesehen und erlebt.
-  - --> Die Touristen haben **während** des Urlaubs wieles geschen und erlebt.
+  - --> Die Touristen haben **während** des Urlaubs vieles geschen und erlebt.
 
 ---
   - Er möchte ein Radio kaufen, findet aber kein gutes Radio. Er kauft einen billigen Fernseher.
   - --> **Statt** eines Radios kauft er einen billigen Fernseher.
+
+#### Schreiben Text D
+> --Einleitung
+>   - Es geht in dem Text un ...
+>   - Der Text berichtet über ...
+> --Argumente gegen den Profisport
+>   - Der Text **nennt** ...
+>   - Erstens ...
+>   - Zweitens ...
+>   - Drittens ...
+
+Erstens ist die Kommerzialisierung des Sports. Die Sportler weben für viele Dinge, die Leute müssen sie kaufen. Das hat mit Sport nichts zu tun. Zweitens ist es, dass Hochleistungssport ...
+**Ein weiterer Augument dagegen ist**, dass ...
+**Der dritte Argument ist, dass** sie wegen des harten Trainings keine Zeit für die Schule und Ausbildung haben. ...
