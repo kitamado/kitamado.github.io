@@ -445,7 +445,7 @@ Erstens ist die Kommerzialisierung des Sports. Die Sportler weben für viele Din
 | die Ausstell**ung**, -en| ausstellen|
 |die Informa**tion**, -en | informieren|
 
-- 词性大多数是die，**Aber**: der Aufschwung, die Aufschwünge
+- 词性大多数是die，**Aber**: der Aufschwung, die Aufschwünge[[Das Geschlecht der Nomen::rmn-transclude]]
 
 {:.medium .serif .oblique}
 #### Suffixe -heit und -keit 
@@ -459,4 +459,114 @@ Erstens ist die Kommerzialisierung des Sports. Die Sportler weben für viele Din
 - 以-ig, -lich, -sam, -bar结尾的形容词变化而来的名词都以-keit结尾
 - **Aber**：Sauberkeit整洁，Tapferkeit勇敢，Heiterkeit喜悦 
 - 其他基本以-heit结尾
-- 有形容词变化而来的名词，词性都为die，一般没有复数形式[[Das Geschlecht der Nomen::rmn-transclude]]
+- 有形容词变化而来的名词，词性都为die，一般没有复数形式
+
+## Lektion 17 Frauen
+
+### Wortbildung
+
+{:.medium .serif .oblique}
+#### Suffixe -er, -ent
+
+|Person(männlich)|Person(weiblich)|Verb|
+|:-----:|:-----:|:------:|
+|der Lehr**er**,-|die Lehr**er**in,-nen| lehren|
+|der Verkäufer,- 售货员|die Verkäuferin,-nen|verkaufen|
+| der Betreuer,- 导师|die Betreuerin,-nen|betreuen|
+|der Zuschauer,- 观众|die Zuschauerin,-nen|betreuen 照顾|
+|der Zuhörer,- 听众|die Zuhörerin,-nen|zuhören|
+|der Bewerber,- 申请者|die Bewerberin,-nen|bewerben sich um|
+|der Emmpfänger,- 收信人|die Empfängerin,-nen|empfangen|
+|der Verfasser,- 作家| die Verfasserin,-nen| verfassen|
+|der Leser,- 读者| die Leserin,-nen| lesen|
+|der Raucher,- / 不抽烟的人Nichtraucher|die Raucherin,-nen|rauchen|
+
+----
+
+|der Stud**ent**,-en|die Stud**en**tin,-nen|studieren|
+|der Interess**ent**,-en|die Interess**ent**in,-nen|sich interessieren für|
+
+
+### Nebensatz mit "weil" und "da" (klausal satz)
+
+| Haptsatz | Nebensatz |
+|:-----:|:-----:|
+| Ich kann Herrn Weber nicht anrufen, | **weil** er im Ausland **ist**.|
+| Er muss im Bett bleiben, | **weil** er Fieber **hat**.|
+
+oder:
+
+| Haptsatz | Nebensatz |
+|:-----:|:-----:|
+| **Weil/Da** Herr Weber im Ausland **ist**,| **kann** ich ihn nicht anrufen.|
+|**Weil/Da** er Fieber **hat**,|**muss** er im Bett bleiben.|
+|**Weil/Da** sie zu Hause bleiben **will**,| **kommt** sie nicht mit.|
+|**Weil/Da** er kein Geld **hat**,| **kann** er kein Auto kaufen.|
+
+- Da 一般放句首
+
+### Hauptsatz mit "deshalb"
+
+| Haptsatz | Nebensatz |
+|:-----:|:-----:|
+| Li Ling studiert noch an der Universität.| **Deshalb** darf sie nicht heiraten.|
+|Der Mantel ist zu lang,|**deshalb** passt er ihr nicht.|
+
+- 区分da, weil, denn(不占位), deshalb, wegen(+G)
+
+### Nebensatz mit "wenn/falls" (Konditionalsatz)
+
+| Haptsatz | Nebensatz |
+|:-----:|:-----:|
+|Ich besuche dich,|**wenn** ich Zeit **habe**.|
+|Sie geht gern einkaufen,|**wenn** sie Geld **hat**.|
+|Herr Liu möchte nach Xi'an fahren,|**wenn** er Urlaub **hat**.|
+
+oder:
+
+| Haptsatz | Nebensatz |
+|:-----:|:-----:|
+|**Wenn/Falls** ich Zeit **habe**,| **besuche** ich dich.|
+|**Wenn/Falls** sie Geld **hat**,|  **geht** sie gern einkaufen.|
+|**Wenn/Falls** Herr Liu Urlaub **hat**,|**möchte** er nach Xi'an fahren.|
+
+### Nebensatz mit "obwohl" (Konzessivesatz)
+
+[[让步从句::lmn]]
+
+| Haptsatz | Nebensatz |
+|:-----:|:-----:|
+| Ich habe eine Verabredung mit ihr, | **ohwohl** ich keine Zeit **habe**.|
+| Herr Liu kann Deutsch gut sprechen,|**obwohl** es sehr schwer **ist**.|
+| Er ist nicht mitgekommen,|**obwohl** ich ihn mehrmals eingeladen **habe**.|
+
+oder:
+
+| Haptsatz | Nebensatz |
+|:-----:|:-----:|
+| **Obwohl** ich keine Zeit **habe**,| **habe** och eine Veravredung mit ihr.|
+|**Obwhol** Deutsch sehr schwer **ist**,|**kann** Herr Liu es gut sprechen.|
+|**obwhol** ich **ihn einladen habe**, | **ist** er nicht mitgekommen
+
+
+### Hauptsatz mit "trotzdem"
+
+| Haptsatz | Nebensatz |
+|:-----:|:-----:|
+| Ich habe keine Zeit. | **Trotzdem habe** ich eine Verabredung mit ihr.|
+| Deutsch ist schwer.| **Trotzdem kann** Liu es gut sprechen.|
+| Ich habe ihn mehrnals eingeladen,|**trotzdem ist** er nicht mitgekommen.|
+
+#### die gleiche Bedeutung trotz/obwohl
+
+| Trotz ...| Obwohl ... | 
+| Trotz der Gefahr | Obwohl es gefährlich ist, ..|
+| Trotz des schlechten Wetters | Obwhol das Wetter schlecht ist,|
+| Trotz seiner Krankheit | Obwohl er krank ist,|
+| Trotz ihrer Verlezung | Obwohl sich Frau Liu verletzt ist,|
+| Trotz seines hohen ALters | Obwohl der Mann sehr alt ist,|
+| Trotz seiner Hilfe|Obwohl er mir geholfen hat, |
+| Trotz der Dunkelheit| Obwohl er dunkel war,|
+| Trotz der Eile | Obwohl ich mich beeilt habe,|
+| Trotz des schlechten Spiels| Obwohl er schlecht spuelte,|
+| Trotz meiner Entschuldigung| Obwohl ich mich entschuldigt habe,|
