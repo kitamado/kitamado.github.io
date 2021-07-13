@@ -489,14 +489,14 @@ Erstens ist die Kommerzialisierung des Sports. Die Sportler weben für viele Din
 
 ### Nebensatz mit "weil" und "da" (klausal satz)
 
-| Haptsatz | Nebensatz |
+| Hauptsatz | Nebensatz |
 |:-----:|:-----:|
 | Ich kann Herrn Weber nicht anrufen, | **weil** er im Ausland **ist**.|
 | Er muss im Bett bleiben, | **weil** er Fieber **hat**.|
 
 oder:
 
-| Haptsatz | Nebensatz |
+| Nebensatz | Hauptsatz |
 |:-----:|:-----:|
 | **Weil/Da** Herr Weber im Ausland **ist**,| **kann** ich ihn nicht anrufen.|
 |**Weil/Da** er Fieber **hat**,|**muss** er im Bett bleiben.|
@@ -507,16 +507,17 @@ oder:
 
 ### Hauptsatz mit "deshalb"
 
-| Haptsatz | Nebensatz |
+| Hauptsatz | [[Hauptsatz::highlight]] |
 |:-----:|:-----:|
 | Li Ling studiert noch an der Universität.| **Deshalb** darf sie nicht heiraten.|
 |Der Mantel ist zu lang,|**deshalb** passt er ihr nicht.|
 
 - 区分da, weil, denn(不占位), deshalb, wegen(+G)
+- deshalb, like und,aber,oder and denn, connects two main clauses(Hauptsatz)
 
 ### Nebensatz mit "wenn/falls" (Konditionalsatz)
 
-| Haptsatz | Nebensatz |
+| Hauptsatz | Nebensatz |
 |:-----:|:-----:|
 |Ich besuche dich,|**wenn** ich Zeit **habe**.|
 |Sie geht gern einkaufen,|**wenn** sie Geld **hat**.|
@@ -524,7 +525,7 @@ oder:
 
 oder:
 
-| Haptsatz | Nebensatz |
+| Nebensatz | Hauptsatz |
 |:-----:|:-----:|
 |**Wenn/Falls** ich Zeit **habe**,| **besuche** ich dich.|
 |**Wenn/Falls** sie Geld **hat**,|  **geht** sie gern einkaufen.|
@@ -542,7 +543,7 @@ oder:
 
 oder:
 
-| Haptsatz | Nebensatz |
+| Nebensatz | Hauptsatz |
 |:-----:|:-----:|
 | **Obwohl** ich keine Zeit **habe**,| **habe** och eine Veravredung mit ihr.|
 |**Obwhol** Deutsch sehr schwer **ist**,|**kann** Herr Liu es gut sprechen.|
@@ -551,7 +552,7 @@ oder:
 
 ### Hauptsatz mit "trotzdem"
 
-| Haptsatz | Nebensatz |
+| Hauptsatz | Hauptsatz |
 |:-----:|:-----:|
 | Ich habe keine Zeit. | **Trotzdem habe** ich eine Verabredung mit ihr.|
 | Deutsch ist schwer.| **Trotzdem kann** Liu es gut sprechen.|
