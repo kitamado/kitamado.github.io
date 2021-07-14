@@ -571,3 +571,41 @@ oder:
 | Trotz der Eile | Obwohl ich mich beeilt habe,|
 | Trotz des schlechten Spiels| Obwohl er schlecht spuelte,|
 | Trotz meiner Entschuldigung| Obwohl ich mich entschuldigt habe,|
+
+### Wortschatz
+
+{:.medium .serif .oblique}
+#### erfaren-wissen 
+  - erfahren：Informationen bekommen 
+    - 获悉、得知某种信息，强调信息获得动作，常用完成时 
+    - erfahren常会指出信息来源或时间 von jm. oder aus etwas (dem Brief, der Nachricht) erharen
+    - *Das habe ich erst gestern erfahren.*
+  - wissen: Informationen haben
+    - 知道、掌握某种信息
+    - 强调拥有某种信息的状态，常用一般现在时。并不强调信息来源，常会与das, alles, nichts, viel, wenig这样一些指示代词或不定代词连用。
+    - *Das weiß ich nicht. Er weiß alles.*
+
+{:.medium .serif .oblique}
+#### suchen-finden
+  - suchen 强调“寻找”这个过程，不一定能找到
+  - finden 强调“找到”的这个结果
+
+{:.medium .serif .oblique}
+#### finden-feststellen
+  - finden = meinen/der Meinung sein
+    - 觉得，认为；用来表达个人观点、感受
+    - 常接从句或简单句结构etwas(A) richtig, falsch, gut, in Ordnung
+    - Ich finde, dass...
+  - feststellen
+    - 发觉、确定；不再是仅仅觉得、认为，而是进一步的确定某一个事实
+    - *Er fährt seit einer Stunde mit dem Zug. Plötzlich stellt er fest, dass seine Fahrkarte weg ist. Er sucht und sucht und kann sie nicht finden.*
+
+### 其他
+  - etwas (für etwas) mitbringen 具备，具有
+  - jn. unterstützen 支持某人
+
+{.medium .serif .oblique}
+#### o.ä. d.h. z.B. 
+  - o. ä. oder ähnliches
+  - d. h. das heißt
+  - z. B. zum Beispiel
